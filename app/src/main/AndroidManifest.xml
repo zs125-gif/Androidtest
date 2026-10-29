@@ -45,6 +45,18 @@
             android:theme="@style/Theme.DigitalMall" />
 
         <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalMall"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalMall"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
             android:name=".OrderListActivity"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
