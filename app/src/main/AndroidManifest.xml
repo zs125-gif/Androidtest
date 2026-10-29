@@ -25,6 +25,12 @@
         </activity>
 
         <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalMall"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
             android:name=".StoreDetailActivity"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />

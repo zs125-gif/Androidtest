@@ -2,6 +2,7 @@ package com.example.digitalmall.net;
 
 import com.example.digitalmall.model.Category;
 import com.example.digitalmall.model.Product;
+import com.example.digitalmall.model.SearchItem;
 import com.example.digitalmall.model.Store;
 
 import org.json.JSONArray;
@@ -80,6 +81,46 @@ public class JsonParser {
             break;
         }
         return categories;
+    }
+
+    /**
+     * 解析 store_detail.json，把所有店铺、所有分类下的商品摊平成一个列表。
+     * <p>
+     * 搜索是跨店铺的，所以每个商品要带上所属店铺的 id / 名称 / 主题色，
+     * 命中后点进商品详情页才能正确显示品牌色、加购物车也才知道加到哪家店。
+     */
+    public static List<SearchItem> parseAllProducts(String json) throws JSONException {
+        List<SearchItem> items = new ArrayList<>();
+        JSONObject root = new JSONObject(json);
+        JSONArray storeArray = root.optJSONArray("storeList");
+        if (storeArray == null) {
+            return items;
+        }
+        for (int i = 0; i < storeArray.length(); i++) {
+            JSONObject storeObj = storeArray.optJSONObject(i);
+            if (storeObj == null) {
+                continue;
+            }
+            int storeId = storeObj.optInt("id");
+            String storeName = storeObj.optString("name");
+            String themeColor = storeObj.optString("themeColor", "#1B6BFF");
+            JSONArray categoryArray = storeObj.optJSONArray("categories");
+            if (categoryArray == null) {
+                continue;
+            }
+            for (int j = 0; j < categoryArray.length(); j++) {
+                JSONObject categoryObj = categoryArray.optJSONObject(j);
+                if (categoryObj == null) {
+                    continue;
+                }
+                List<Product> products = parseProducts(categoryObj.optJSONArray("products"));
+                String categoryName = categoryObj.optString("name");
+                for (Product product : products) {
+                    items.add(new SearchItem(product, storeId, storeName, themeColor, categoryName));
+                }
+            }
+        }
+        return items;
     }
 
     private static List<Product> parseProducts(JSONArray array) {

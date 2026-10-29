@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 搜索历史 / 热词的小胶囊标签 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/bg_gray" />
+    <corners android:radius="14dp" />
+</shape>

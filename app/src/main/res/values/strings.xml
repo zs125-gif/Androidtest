@@ -11,6 +11,28 @@
     <string name="empty_store_list">暂无店铺数据</string>
     <string name="parse_error">数据解析失败，请检查 JSON 格式</string>
 
+    <!-- 搜索 -->
+    <string name="search_action">搜索</string>
+    <string name="search_clear_input">清除输入</string>
+    <string name="search_history_title">搜索历史</string>
+    <string name="search_history_clear">清空</string>
+    <string name="search_hot_title">热门搜索</string>
+    <string name="search_tip">支持商品名、品牌、分类名，多个关键词用空格分隔</string>
+    <string name="search_result_count">共 %1$d 件商品</string>
+    <string name="search_empty_title">没有找到「%1$s」相关商品</string>
+    <string name="search_empty_tip">换个关键词试试，比如「星曜 X5」</string>
+    <string name="search_need_keyword">请输入要搜索的商品</string>
+    <string name="added_to_cart">已加入购物车</string>
+
+    <string-array name="search_hot_words">
+        <item>星曜 X5</item>
+        <item>极客 Air 14</item>
+        <item>降噪</item>
+        <item>充电器</item>
+        <item>智能手表</item>
+        <item>平板</item>
+    </string-array>
+
     <!-- 店铺详情 -->
     <string name="clear">清空</string>
     <string name="cart_empty">购物车是空的</string>
