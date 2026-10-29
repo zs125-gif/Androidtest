@@ -9,9 +9,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.digitalmall.db.OrderDao;
+import com.example.digitalmall.model.CartItem;
 import com.example.digitalmall.util.CartManager;
+import com.example.digitalmall.util.SessionManager;
 import com.example.digitalmall.util.UIUtil;
 
+import java.util.List;
 import java.util.Locale;
 
 /**
@@ -79,6 +83,27 @@ public class PayActivity extends AppCompatActivity {
     }
 
     private void showSuccess() {
+        // 先把购物车快照下来，再清空——订单要落库，清空后就查不到了
+        List<CartItem> items = CartManager.getInstance().getItems(storeId);
+        int itemCount = CartManager.getInstance().getTotalCount(storeId);
+
+        StringBuilder summary = new StringBuilder();
+        for (int i = 0; i < items.size(); i++) {
+            CartItem item = items.get(i);
+            if (i > 0) {
+                summary.append("、");
+            }
+            summary.append(item.getProduct().getName()).append("×").append(item.getCount());
+        }
+
+        String username = SessionManager.getUsername(this);
+        if (username == null) {
+            username = "guest";
+        }
+        // 支付成功 -> 订单写入 SQLite（课程设计第 5 项技术要求）
+        OrderDao.insert(this, username, storeId,
+                storeName == null ? "" : storeName, amount, itemCount, summary.toString());
+
         CartManager.getInstance().clear(storeId);
 
         findViewById(R.id.layout_pay_content).setVisibility(View.GONE);
