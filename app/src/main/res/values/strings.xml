@@ -7,6 +7,9 @@
     <string name="home_subtitle">正品数码 · 极速配送</string>
     <string name="search_hint">搜索品牌 / 型号，如：星曜 X5</string>
     <string name="section_nearby">品牌旗舰店</string>
+    <string name="search">搜索</string>
+    <string name="empty_store_list">暂无店铺数据</string>
+    <string name="parse_error">数据解析失败，请检查 JSON 格式</string>
 
     <!-- 店铺详情 -->
     <string name="clear">清空</string>
