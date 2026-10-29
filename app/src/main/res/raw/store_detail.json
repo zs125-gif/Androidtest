@@ -65,6 +65,132 @@
               ],
               "description": "大屏娱乐利器，120Hz 高刷屏 + 立体双扬声器，追剧游戏两不误。",
               "cover": "pic_phone"
+            },
+            {
+              "id": 601,
+              "name": "星曜 X5 Ultra",
+              "subtitle": "2K 微曲屏 · 潜望长焦 · 卫星通信",
+              "price": 5999.0,
+              "originPrice": 6499.0,
+              "sales": 236,
+              "stock": 18,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "骁龙 8 Gen3 领先版"
+              ],
+              "description": "星曜 X5 Ultra，2K 微曲屏 · 潜望长焦 · 卫星通信。骁龙 8 Gen3 领先版 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
+            },
+            {
+              "id": 602,
+              "name": "星曜 X5 Lite",
+              "subtitle": "直屏轻薄 · 长续航",
+              "price": 2499.0,
+              "originPrice": 2799.0,
+              "sales": 512,
+              "stock": 64,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "骁龙 7 Gen3"
+              ],
+              "description": "星曜 X5 Lite，直屏轻薄 · 长续航。骁龙 7 Gen3 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
+            },
+            {
+              "id": 603,
+              "name": "星曜 Note 12 Pro",
+              "subtitle": "一亿像素 · 大电池",
+              "price": 2299.0,
+              "originPrice": 2599.0,
+              "sales": 878,
+              "stock": 120,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "天玑 8300"
+              ],
+              "description": "星曜 Note 12 Pro，一亿像素 · 大电池。天玑 8300 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
+            },
+            {
+              "id": 604,
+              "name": "星曜 A3",
+              "subtitle": "入门直屏 · 5000mAh",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 1342,
+              "stock": 210,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "骁龙 6 Gen1"
+              ],
+              "description": "星曜 A3，入门直屏 · 5000mAh。骁龙 6 Gen1 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
+            },
+            {
+              "id": 605,
+              "name": "星曜 A3 青春版",
+              "subtitle": "轻巧机身 · 学生优选",
+              "price": 899.0,
+              "originPrice": 1099.0,
+              "sales": 968,
+              "stock": 180,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "骁龙 4 Gen2"
+              ],
+              "description": "星曜 A3 青春版，轻巧机身 · 学生优选。骁龙 4 Gen2 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
+            },
+            {
+              "id": 606,
+              "name": "星曜 Fold 7",
+              "subtitle": "折叠大屏 · 多任务分屏",
+              "price": 8999.0,
+              "originPrice": 9999.0,
+              "sales": 87,
+              "stock": 9,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "骁龙 8 Gen3"
+              ],
+              "description": "星曜 Fold 7，折叠大屏 · 多任务分屏。骁龙 8 Gen3 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
+            },
+            {
+              "id": 607,
+              "name": "星曜 X4",
+              "subtitle": "经典旗舰 · 影像升级",
+              "price": 2999.0,
+              "originPrice": 3399.0,
+              "sales": 421,
+              "stock": 46,
+              "icon": "phone",
+              "params": [
+                "6.7 英寸 1.5K OLED",
+                "12GB + 256GB",
+                "5000mAh / 67W 快充",
+                "骁龙 8 Gen2"
+              ],
+              "description": "星曜 X4，经典旗舰 · 影像升级。骁龙 8 Gen2 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_phone"
             }
           ]
         },
@@ -106,6 +232,150 @@
               ],
               "description": "单手可握的小尺寸平板，通勤路上追剧看小说刚刚好。",
               "cover": "pic_tablet"
+            },
+            {
+              "id": 608,
+              "name": "星曜 Pad Pro 12.9",
+              "subtitle": "12.9 英寸大屏 · 键盘套装",
+              "price": 4699.0,
+              "originPrice": 5199.0,
+              "sales": 312,
+              "stock": 28,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "M 系列芯片"
+              ],
+              "description": "星曜 Pad Pro 12.9，12.9 英寸大屏 · 键盘套装。M 系列芯片 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 609,
+              "name": "星曜 Pad Air 11",
+              "subtitle": "11 英寸 2.5K · 轻办公",
+              "price": 2399.0,
+              "originPrice": 2699.0,
+              "sales": 526,
+              "stock": 72,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "支持手写笔"
+              ],
+              "description": "星曜 Pad Air 11，11 英寸 2.5K · 轻办公。支持手写笔 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 610,
+              "name": "星曜 Pad mini 6",
+              "subtitle": "8.3 英寸 · 单手掌握",
+              "price": 2099.0,
+              "originPrice": 2399.0,
+              "sales": 388,
+              "stock": 54,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "A15 仿生"
+              ],
+              "description": "星曜 Pad mini 6，8.3 英寸 · 单手掌握。A15 仿生 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 611,
+              "name": "星曜 Pad Kids",
+              "subtitle": "护眼模式 · 家长管控",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 214,
+              "stock": 96,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "儿童模式"
+              ],
+              "description": "星曜 Pad Kids，护眼模式 · 家长管控。儿童模式 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 612,
+              "name": "星曜 Pad Go",
+              "subtitle": "入门娱乐 · 长续航",
+              "price": 999.0,
+              "originPrice": 1199.0,
+              "sales": 671,
+              "stock": 140,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "四扬声器"
+              ],
+              "description": "星曜 Pad Go，入门娱乐 · 长续航。四扬声器 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 613,
+              "name": "星曜 Pad Pro 11",
+              "subtitle": "2.8K 120Hz · 四扬声器",
+              "price": 3899.0,
+              "originPrice": 4299.0,
+              "sales": 245,
+              "stock": 33,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "骁龙 8+"
+              ],
+              "description": "星曜 Pad Pro 11，2.8K 120Hz · 四扬声器。骁龙 8+ 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 614,
+              "name": "星曜 Pad Air 青春版",
+              "subtitle": "轻薄金属机身",
+              "price": 1599.0,
+              "originPrice": 1799.0,
+              "sales": 458,
+              "stock": 88,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "6000mAh"
+              ],
+              "description": "星曜 Pad Air 青春版，轻薄金属机身。6000mAh 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
+            },
+            {
+              "id": 615,
+              "name": "星曜 Pad Max",
+              "subtitle": "14 英寸巨屏 · 办公神器",
+              "price": 3499.0,
+              "originPrice": 3899.0,
+              "sales": 176,
+              "stock": 21,
+              "icon": "tablet",
+              "params": [
+                "11 英寸 2.5K 120Hz",
+                "8GB + 128GB",
+                "8000mAh",
+                "16GB 内存"
+              ],
+              "description": "星曜 Pad Max，14 英寸巨屏 · 办公神器。16GB 内存 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_tablet"
             }
           ]
         },
@@ -128,6 +398,168 @@
                 "14 天续航"
               ],
               "description": "钛合金中框，支持 eSIM 独立通话与全天候血氧监测，续航最长 14 天。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 616,
+              "name": "星曜 Watch 5 Pro",
+              "subtitle": "钛金属表壳 · 双频 GPS",
+              "price": 1799.0,
+              "originPrice": 1999.0,
+              "sales": 402,
+              "stock": 36,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "蓝宝石玻璃"
+              ],
+              "description": "星曜 Watch 5 Pro，钛金属表壳 · 双频 GPS。蓝宝石玻璃 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 617,
+              "name": "星曜 Watch GT",
+              "subtitle": "长续航 · 100 种运动",
+              "price": 999.0,
+              "originPrice": 1199.0,
+              "sales": 726,
+              "stock": 88,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "14 天续航"
+              ],
+              "description": "星曜 Watch GT，长续航 · 100 种运动。14 天续航 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 618,
+              "name": "星曜 Watch SE",
+              "subtitle": "轻量入门 · 心率监测",
+              "price": 699.0,
+              "originPrice": 799.0,
+              "sales": 934,
+              "stock": 130,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "全天候监测"
+              ],
+              "description": "星曜 Watch SE，轻量入门 · 心率监测。全天候监测 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 619,
+              "name": "星曜 Watch Kids",
+              "subtitle": "儿童定位 · 视频通话",
+              "price": 499.0,
+              "originPrice": 599.0,
+              "sales": 312,
+              "stock": 75,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "4G 通话"
+              ],
+              "description": "星曜 Watch Kids，儿童定位 · 视频通话。4G 通话 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 620,
+              "name": "星曜 Watch 5 典藏版",
+              "subtitle": "真皮表带 · 限量配色",
+              "price": 2199.0,
+              "originPrice": 2399.0,
+              "sales": 96,
+              "stock": 12,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "手工缝线"
+              ],
+              "description": "星曜 Watch 5 典藏版，真皮表带 · 限量配色。手工缝线 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 621,
+              "name": "星曜 Watch Fit",
+              "subtitle": "方形轻薄 · 血氧监测",
+              "price": 399.0,
+              "originPrice": 499.0,
+              "sales": 1187,
+              "stock": 210,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "10 天续航"
+              ],
+              "description": "星曜 Watch Fit，方形轻薄 · 血氧监测。10 天续航 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 622,
+              "name": "星曜 Watch Ultra",
+              "subtitle": "户外探险 · 100 米防水",
+              "price": 2999.0,
+              "originPrice": 3299.0,
+              "sales": 143,
+              "stock": 15,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "钛合金机身"
+              ],
+              "description": "星曜 Watch Ultra，户外探险 · 100 米防水。钛合金机身 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 623,
+              "name": "星曜 Band 8",
+              "subtitle": "1.62 英寸 AMOLED",
+              "price": 299.0,
+              "originPrice": 349.0,
+              "sales": 2145,
+              "stock": 320,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "睡眠监测"
+              ],
+              "description": "星曜 Band 8，1.62 英寸 AMOLED。睡眠监测 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 624,
+              "name": "星曜 Watch 青春版",
+              "subtitle": "圆盘设计 · 多表盘",
+              "price": 599.0,
+              "originPrice": 699.0,
+              "sales": 856,
+              "stock": 140,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "5ATM 防水",
+                "14 天续航",
+                "7 天续航"
+              ],
+              "description": "星曜 Watch 青春版，圆盘设计 · 多表盘。7 天续航 加持，星辰数码旗舰店 官方直营，支持七天无理由退货。",
               "cover": "pic_watch"
             }
           ]
@@ -180,6 +612,150 @@
               ],
               "description": "16 英寸 3.2K 165Hz 屏幕，100% DCI-P3 色域，视频剪辑与设计的好搭档。",
               "cover": "pic_laptop"
+            },
+            {
+              "id": 625,
+              "name": "极客 Air 13",
+              "subtitle": "13.3 英寸 · 1.1kg",
+              "price": 4799.0,
+              "originPrice": 5299.0,
+              "sales": 268,
+              "stock": 32,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "全金属机身"
+              ],
+              "description": "极客 Air 13，13.3 英寸 · 1.1kg。全金属机身 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 626,
+              "name": "极客 Air 15",
+              "subtitle": "15.6 英寸 · 大屏轻办公",
+              "price": 5799.0,
+              "originPrice": 6299.0,
+              "sales": 196,
+              "stock": 24,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "数字小键盘"
+              ],
+              "description": "极客 Air 15，15.6 英寸 · 大屏轻办公。数字小键盘 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 627,
+              "name": "极客 Air Pro 14",
+              "subtitle": "2.8K OLED · 触控屏",
+              "price": 7299.0,
+              "originPrice": 7999.0,
+              "sales": 143,
+              "stock": 17,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "100% DCI-P3"
+              ],
+              "description": "极客 Air Pro 14，2.8K OLED · 触控屏。100% DCI-P3 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 628,
+              "name": "极客 Air 14 锐龙版",
+              "subtitle": "R7 核显 · 高性价比",
+              "price": 4599.0,
+              "originPrice": 4999.0,
+              "sales": 352,
+              "stock": 45,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "R7 8845H"
+              ],
+              "description": "极客 Air 14 锐龙版，R7 核显 · 高性价比。R7 8845H 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 629,
+              "name": "极客 Air 青春版",
+              "subtitle": "入门轻薄 · 长续航",
+              "price": 3299.0,
+              "originPrice": 3699.0,
+              "sales": 486,
+              "stock": 78,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "16 小时续航"
+              ],
+              "description": "极客 Air 青春版，入门轻薄 · 长续航。16 小时续航 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 630,
+              "name": "极客 Air Duo",
+              "subtitle": "双屏设计 · 多任务",
+              "price": 9999.0,
+              "originPrice": 10999.0,
+              "sales": 62,
+              "stock": 8,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "双 14 英寸"
+              ],
+              "description": "极客 Air Duo，双屏设计 · 多任务。双 14 英寸 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 631,
+              "name": "极客 Air 14 2026",
+              "subtitle": "全新模具 · 96Wh 电池",
+              "price": 6499.0,
+              "originPrice": 6999.0,
+              "sales": 174,
+              "stock": 26,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "雷电 5 接口"
+              ],
+              "description": "极客 Air 14 2026，全新模具 · 96Wh 电池。雷电 5 接口 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 632,
+              "name": "极客 Air 商务版",
+              "subtitle": "防窥屏 · 指纹识别",
+              "price": 5999.0,
+              "originPrice": 6499.0,
+              "sales": 131,
+              "stock": 19,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2.8K",
+                "16GB + 512GB",
+                "1.2kg 机身",
+                "军标认证"
+              ],
+              "description": "极客 Air 商务版，防窥屏 · 指纹识别。军标认证 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
             }
           ]
         },
@@ -221,6 +797,150 @@
               ],
               "description": "18 英寸大屏旗舰，i9 + RTX 4070，桌面级性能释放。",
               "cover": "pic_laptop"
+            },
+            {
+              "id": 633,
+              "name": "极客 猎刃 15",
+              "subtitle": "RTX 4060 · 144Hz",
+              "price": 7299.0,
+              "originPrice": 7799.0,
+              "sales": 312,
+              "stock": 28,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "满血 140W"
+              ],
+              "description": "极客 猎刃 15，RTX 4060 · 144Hz。满血 140W 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 634,
+              "name": "极客 猎刃 16 Pro",
+              "subtitle": "RTX 4070 · 2.5K 240Hz",
+              "price": 10999.0,
+              "originPrice": 11999.0,
+              "sales": 148,
+              "stock": 14,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "独显直连"
+              ],
+              "description": "极客 猎刃 16 Pro，RTX 4070 · 2.5K 240Hz。独显直连 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 635,
+              "name": "极客 猎刃 17",
+              "subtitle": "17.3 英寸 · 满血显卡",
+              "price": 9499.0,
+              "originPrice": 9999.0,
+              "sales": 96,
+              "stock": 11,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "四区背光键盘"
+              ],
+              "description": "极客 猎刃 17，17.3 英寸 · 满血显卡。四区背光键盘 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 636,
+              "name": "极客 猎刃 Air",
+              "subtitle": "轻量游戏本 · 2.1kg",
+              "price": 8299.0,
+              "originPrice": 8799.0,
+              "sales": 187,
+              "stock": 22,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "双风扇"
+              ],
+              "description": "极客 猎刃 Air，轻量游戏本 · 2.1kg。双风扇 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 637,
+              "name": "极客 猎刃 16 锐龙版",
+              "subtitle": "R9 + RTX 4060",
+              "price": 7999.0,
+              "originPrice": 8499.0,
+              "sales": 234,
+              "stock": 31,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "R9 8945HX"
+              ],
+              "description": "极客 猎刃 16 锐龙版，R9 + RTX 4060。R9 8945HX 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 638,
+              "name": "极客 猎刃 18 Pro",
+              "subtitle": "RTX 4080 · 六热管",
+              "price": 16999.0,
+              "originPrice": 18999.0,
+              "sales": 41,
+              "stock": 6,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "32GB 内存"
+              ],
+              "description": "极客 猎刃 18 Pro，RTX 4080 · 六热管。32GB 内存 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 639,
+              "name": "极客 猎刃 14",
+              "subtitle": "小尺寸高性能",
+              "price": 6999.0,
+              "originPrice": 7499.0,
+              "sales": 158,
+              "stock": 20,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "1.9kg"
+              ],
+              "description": "极客 猎刃 14，小尺寸高性能。1.9kg 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 640,
+              "name": "极客 猎刃 冰魄版",
+              "subtitle": "液金散热 · 白色机身",
+              "price": 11999.0,
+              "originPrice": 12999.0,
+              "sales": 73,
+              "stock": 9,
+              "icon": "laptop",
+              "params": [
+                "16 英寸 2.5K 165Hz",
+                "16GB + 1TB",
+                "RTX 4060",
+                "液金导热"
+              ],
+              "description": "极客 猎刃 冰魄版，液金散热 · 白色机身。液金导热 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
             }
           ]
         },
@@ -243,6 +963,168 @@
                 "指纹+人脸双解锁"
               ],
               "description": "通过多项军规可靠性测试，指纹与人脸双解锁，商务出行更安心。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 641,
+              "name": "极客 商旅 14",
+              "subtitle": "14 英寸 · 军标认证",
+              "price": 4999.0,
+              "originPrice": 5499.0,
+              "sales": 213,
+              "stock": 34,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "MIL-STD-810H"
+              ],
+              "description": "极客 商旅 14，14 英寸 · 军标认证。MIL-STD-810H 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 642,
+              "name": "极客 商旅 15",
+              "subtitle": "大屏办公 · 数字键盘",
+              "price": 5299.0,
+              "originPrice": 5799.0,
+              "sales": 168,
+              "stock": 26,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "15.6 英寸"
+              ],
+              "description": "极客 商旅 15，大屏办公 · 数字键盘。15.6 英寸 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 643,
+              "name": "极客 商旅 13 Pro",
+              "subtitle": "碳纤维 · 0.99kg",
+              "price": 6999.0,
+              "originPrice": 7599.0,
+              "sales": 124,
+              "stock": 15,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "碳纤维 A 面"
+              ],
+              "description": "极客 商旅 13 Pro，碳纤维 · 0.99kg。碳纤维 A 面 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 644,
+              "name": "极客 商旅 14 触控版",
+              "subtitle": "触控屏 · 手写笔",
+              "price": 5999.0,
+              "originPrice": 6499.0,
+              "sales": 97,
+              "stock": 18,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "4096 级压感"
+              ],
+              "description": "极客 商旅 14 触控版，触控屏 · 手写笔。4096 级压感 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 645,
+              "name": "极客 商旅 13 青春版",
+              "subtitle": "入门商务",
+              "price": 3599.0,
+              "originPrice": 3999.0,
+              "sales": 342,
+              "stock": 62,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "指纹解锁"
+              ],
+              "description": "极客 商旅 13 青春版，入门商务。指纹解锁 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 646,
+              "name": "极客 商旅 16",
+              "subtitle": "16 英寸 · 人脸识别",
+              "price": 6299.0,
+              "originPrice": 6799.0,
+              "sales": 118,
+              "stock": 21,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "红外人脸"
+              ],
+              "description": "极客 商旅 16，16 英寸 · 人脸识别。红外人脸 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 647,
+              "name": "极客 商旅 13 旗舰",
+              "subtitle": "4K 屏 · 全接口",
+              "price": 8999.0,
+              "originPrice": 9699.0,
+              "sales": 64,
+              "stock": 9,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "双雷电 5"
+              ],
+              "description": "极客 商旅 13 旗舰，4K 屏 · 全接口。双雷电 5 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 648,
+              "name": "极客 商旅 14 长续航",
+              "subtitle": "20 小时续航",
+              "price": 5499.0,
+              "originPrice": 5999.0,
+              "sales": 205,
+              "stock": 30,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "70Wh 电池"
+              ],
+              "description": "极客 商旅 14 长续航，20 小时续航。70Wh 电池 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
+              "cover": "pic_laptop"
+            },
+            {
+              "id": 649,
+              "name": "极客 商旅 12",
+              "subtitle": "12.5 英寸便携",
+              "price": 3299.0,
+              "originPrice": 3699.0,
+              "sales": 287,
+              "stock": 48,
+              "icon": "laptop",
+              "params": [
+                "14 英寸 2K 防眩光",
+                "16GB + 512GB",
+                "1.1kg",
+                "0.98kg"
+              ],
+              "description": "极客 商旅 12，12.5 英寸便携。0.98kg 加持，极客笔记本专营店 官方直营，支持七天无理由退货。",
               "cover": "pic_laptop"
             }
           ]
@@ -295,6 +1177,150 @@
               ],
               "description": "半入耳设计久戴不胀，蓝牙 5.3 连接稳定，通话降噪清晰。",
               "cover": "pic_headset"
+            },
+            {
+              "id": 650,
+              "name": "声动 Buds Pro 2",
+              "subtitle": "双单元 · 50dB 降噪",
+              "price": 1099.0,
+              "originPrice": 1299.0,
+              "sales": 468,
+              "stock": 52,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "LDAC 高清"
+              ],
+              "description": "声动 Buds Pro 2，双单元 · 50dB 降噪。LDAC 高清 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 651,
+              "name": "声动 Buds Air",
+              "subtitle": "半入耳 · 舒适佩戴",
+              "price": 499.0,
+              "originPrice": 599.0,
+              "sales": 1024,
+              "stock": 168,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "蓝牙 5.4"
+              ],
+              "description": "声动 Buds Air，半入耳 · 舒适佩戴。蓝牙 5.4 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 652,
+              "name": "声动 Buds Sport",
+              "subtitle": "耳翼固定 · IP55",
+              "price": 599.0,
+              "originPrice": 699.0,
+              "sales": 726,
+              "stock": 96,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "运动防掉"
+              ],
+              "description": "声动 Buds Sport，耳翼固定 · IP55。运动防掉 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 653,
+              "name": "声动 Buds Studio",
+              "subtitle": "空间音频 · 高清解码",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 214,
+              "stock": 26,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "空间音频"
+              ],
+              "description": "声动 Buds Studio，空间音频 · 高清解码。空间音频 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 654,
+              "name": "声动 Buds Lite 2",
+              "subtitle": "入门真无线",
+              "price": 199.0,
+              "originPrice": 249.0,
+              "sales": 1587,
+              "stock": 260,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "20 小时续航"
+              ],
+              "description": "声动 Buds Lite 2，入门真无线。20 小时续航 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 655,
+              "name": "声动 Buds ANC",
+              "subtitle": "主动降噪 · 长续航",
+              "price": 699.0,
+              "originPrice": 799.0,
+              "sales": 643,
+              "stock": 84,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "40dB 降噪"
+              ],
+              "description": "声动 Buds ANC，主动降噪 · 长续航。40dB 降噪 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 656,
+              "name": "声动 Buds 骨传导",
+              "subtitle": "开放佩戴 · 运动安全",
+              "price": 899.0,
+              "originPrice": 999.0,
+              "sales": 302,
+              "stock": 41,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "骨传导振子"
+              ],
+              "description": "声动 Buds 骨传导，开放佩戴 · 运动安全。骨传导振子 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 657,
+              "name": "声动 Buds 青春版",
+              "subtitle": "多彩配色",
+              "price": 299.0,
+              "originPrice": 349.0,
+              "sales": 1132,
+              "stock": 190,
+              "icon": "headset",
+              "params": [
+                "主动降噪 42dB",
+                "单次 8 小时",
+                "蓝牙 5.3",
+                "5 色可选"
+              ],
+              "description": "声动 Buds 青春版，多彩配色。5 色可选 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
             }
           ]
         },
@@ -336,6 +1362,150 @@
               ],
               "description": "仅 220g 轻量头戴，50 小时超长续航，可折叠便于携带。",
               "cover": "pic_headset"
+            },
+            {
+              "id": 658,
+              "name": "声动 Studio 900",
+              "subtitle": "旗舰头戴 · LDAC",
+              "price": 2499.0,
+              "originPrice": 2799.0,
+              "sales": 132,
+              "stock": 16,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "40mm 镀铍振膜"
+              ],
+              "description": "声动 Studio 900，旗舰头戴 · LDAC。40mm 镀铍振膜 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 659,
+              "name": "声动 Studio 600",
+              "subtitle": "40mm 动圈 · 60 小时",
+              "price": 1199.0,
+              "originPrice": 1399.0,
+              "sales": 387,
+              "stock": 46,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "快充 10 分钟"
+              ],
+              "description": "声动 Studio 600，40mm 动圈 · 60 小时。快充 10 分钟 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 660,
+              "name": "声动 Studio 400",
+              "subtitle": "入门头戴",
+              "price": 599.0,
+              "originPrice": 699.0,
+              "sales": 724,
+              "stock": 105,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "轻量佩戴"
+              ],
+              "description": "声动 Studio 400，入门头戴。轻量佩戴 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 661,
+              "name": "声动 Studio 700 ANC",
+              "subtitle": "深度降噪",
+              "price": 1899.0,
+              "originPrice": 2099.0,
+              "sales": 208,
+              "stock": 24,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "45dB 降噪"
+              ],
+              "description": "声动 Studio 700 ANC，深度降噪。45dB 降噪 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 662,
+              "name": "声动 Studio 电竞版",
+              "subtitle": "低延迟 · 麦克风",
+              "price": 899.0,
+              "originPrice": 999.0,
+              "sales": 416,
+              "stock": 58,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "2.4G 连接"
+              ],
+              "description": "声动 Studio 电竞版，低延迟 · 麦克风。2.4G 连接 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 663,
+              "name": "声动 Studio 复古版",
+              "subtitle": "木质腔体",
+              "price": 1599.0,
+              "originPrice": 1799.0,
+              "sales": 96,
+              "stock": 12,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "实木外壳"
+              ],
+              "description": "声动 Studio 复古版，木质腔体。实木外壳 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 664,
+              "name": "声动 Studio 轻享版",
+              "subtitle": "轻量头戴",
+              "price": 499.0,
+              "originPrice": 599.0,
+              "sales": 863,
+              "stock": 132,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "仅 210g"
+              ],
+              "description": "声动 Studio 轻享版，轻量头戴。仅 210g 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 665,
+              "name": "声动 Studio HiFi",
+              "subtitle": "平板振膜",
+              "price": 2999.0,
+              "originPrice": 3299.0,
+              "sales": 58,
+              "stock": 8,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "降噪 38dB",
+                "续航 60 小时",
+                "平板振膜"
+              ],
+              "description": "声动 Studio HiFi，平板振膜。平板振膜 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
             }
           ]
         },
@@ -358,6 +1528,168 @@
                 "两台互联立体声"
               ],
               "description": "20W 双单元重低音，IPX7 级防水，两台可互联组成立体声。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 666,
+              "name": "声动 小钢炮 Pro",
+              "subtitle": "40W 输出 · 双低频",
+              "price": 599.0,
+              "originPrice": 699.0,
+              "sales": 512,
+              "stock": 66,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "双被动单元"
+              ],
+              "description": "声动 小钢炮 Pro，40W 输出 · 双低频。双被动单元 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 667,
+              "name": "声动 便携音箱",
+              "subtitle": "IPX7 · 挂绳设计",
+              "price": 299.0,
+              "originPrice": 349.0,
+              "sales": 876,
+              "stock": 140,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "户外防水"
+              ],
+              "description": "声动 便携音箱，IPX7 · 挂绳设计。户外防水 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 668,
+              "name": "声动 桌面音箱",
+              "subtitle": "2.0 声道 · USB 供电",
+              "price": 399.0,
+              "originPrice": 449.0,
+              "sales": 634,
+              "stock": 92,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "双 52mm 单元"
+              ],
+              "description": "声动 桌面音箱，2.0 声道 · USB 供电。双 52mm 单元 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 669,
+              "name": "声动 派对音箱",
+              "subtitle": "100W · 灯效",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 187,
+              "stock": 21,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "RGB 灯效"
+              ],
+              "description": "声动 派对音箱，100W · 灯效。RGB 灯效 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 670,
+              "name": "声动 户外音箱",
+              "subtitle": "防摔防水 · 20 小时",
+              "price": 799.0,
+              "originPrice": 899.0,
+              "sales": 296,
+              "stock": 38,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "IP66"
+              ],
+              "description": "声动 户外音箱，防摔防水 · 20 小时。IP66 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 671,
+              "name": "声动 智能音箱",
+              "subtitle": "语音助手 · 家居控制",
+              "price": 499.0,
+              "originPrice": 599.0,
+              "sales": 745,
+              "stock": 110,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "支持联动"
+              ],
+              "description": "声动 智能音箱，语音助手 · 家居控制。支持联动 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 672,
+              "name": "声动 迷你音箱",
+              "subtitle": "掌心大小 · 蓝牙 5.3",
+              "price": 149.0,
+              "originPrice": 179.0,
+              "sales": 1327,
+              "stock": 240,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "仅 180g"
+              ],
+              "description": "声动 迷你音箱，掌心大小 · 蓝牙 5.3。仅 180g 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 673,
+              "name": "声动 回音壁",
+              "subtitle": "家庭影院 · 杜比",
+              "price": 1999.0,
+              "originPrice": 2299.0,
+              "sales": 84,
+              "stock": 11,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "杜比全景声"
+              ],
+              "description": "声动 回音壁，家庭影院 · 杜比。杜比全景声 加持，声动音频馆 官方直营，支持七天无理由退货。",
+              "cover": "pic_headset"
+            },
+            {
+              "id": 674,
+              "name": "声动 复古音箱",
+              "subtitle": "木质外观 · FM 收音",
+              "price": 699.0,
+              "originPrice": 799.0,
+              "sales": 213,
+              "stock": 29,
+              "icon": "headset",
+              "params": [
+                "20W 输出",
+                "IPX7 防水",
+                "续航 16 小时",
+                "实木腔体"
+              ],
+              "description": "声动 复古音箱，木质外观 · FM 收音。实木腔体 加持，声动音频馆 官方直营，支持七天无理由退货。",
               "cover": "pic_headset"
             }
           ]
@@ -410,6 +1742,150 @@
               ],
               "description": "单口 100W 输出，可直接为 16 英寸笔记本供电，出差一个头就够。",
               "cover": "pic_charger"
+            },
+            {
+              "id": 675,
+              "name": "30W 氮化镓充电器",
+              "subtitle": "单口快充 · 小巧",
+              "price": 79.0,
+              "originPrice": 99.0,
+              "sales": 2145,
+              "stock": 340,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "PD 30W"
+              ],
+              "description": "30W 氮化镓充电器，单口快充 · 小巧。PD 30W 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 676,
+              "name": "45W 双口充电器",
+              "subtitle": "手机平板同充",
+              "price": 99.0,
+              "originPrice": 129.0,
+              "sales": 1632,
+              "stock": 280,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "双 Type-C"
+              ],
+              "description": "45W 双口充电器，手机平板同充。双 Type-C 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 677,
+              "name": "120W 氮化镓充电器",
+              "subtitle": "四口输出 · 桌面级",
+              "price": 249.0,
+              "originPrice": 299.0,
+              "sales": 387,
+              "stock": 56,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "3C1A"
+              ],
+              "description": "120W 氮化镓充电器，四口输出 · 桌面级。3C1A 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 678,
+              "name": "65W 车充",
+              "subtitle": "双口 · 数显",
+              "price": 89.0,
+              "originPrice": 109.0,
+              "sales": 876,
+              "stock": 150,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "数显电压"
+              ],
+              "description": "65W 车充，双口 · 数显。数显电压 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 679,
+              "name": "20W 迷你充电器",
+              "subtitle": "PD 快充",
+              "price": 49.0,
+              "originPrice": 69.0,
+              "sales": 2914,
+              "stock": 460,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "仅 32g"
+              ],
+              "description": "20W 迷你充电器，PD 快充。仅 32g 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 680,
+              "name": "100W 多口桌面充",
+              "subtitle": "带支架",
+              "price": 229.0,
+              "originPrice": 269.0,
+              "sales": 418,
+              "stock": 62,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "可竖放"
+              ],
+              "description": "100W 多口桌面充，带支架。可竖放 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 681,
+              "name": "65W 无线充底座",
+              "subtitle": "15W 磁吸",
+              "price": 199.0,
+              "originPrice": 249.0,
+              "sales": 306,
+              "stock": 44,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "磁吸对位"
+              ],
+              "description": "65W 无线充底座，15W 磁吸。磁吸对位 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 682,
+              "name": "33W 氮化镓套装",
+              "subtitle": "含数据线",
+              "price": 119.0,
+              "originPrice": 149.0,
+              "sales": 921,
+              "stock": 165,
+              "icon": "charger",
+              "params": [
+                "氮化镓",
+                "多口输出",
+                "折叠插脚",
+                "套装含线"
+              ],
+              "description": "33W 氮化镓套装，含数据线。套装含线 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
             }
           ]
         },
@@ -450,6 +1926,150 @@
                 "数显电量"
               ],
               "description": "20000mAh 大容量可给手机充满 4 次，数显电量一目了然。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 683,
+              "name": "5000mAh 磁吸充电宝",
+              "subtitle": "超薄 · 无线",
+              "price": 149.0,
+              "originPrice": 179.0,
+              "sales": 1287,
+              "stock": 190,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "8mm 厚度"
+              ],
+              "description": "5000mAh 磁吸充电宝，超薄 · 无线。8mm 厚度 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 684,
+              "name": "10000mAh 快充宝",
+              "subtitle": "22.5W · 双向",
+              "price": 129.0,
+              "originPrice": 159.0,
+              "sales": 1863,
+              "stock": 300,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "双向 22.5W"
+              ],
+              "description": "10000mAh 快充宝，22.5W · 双向。双向 22.5W 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 685,
+              "name": "20000mAh 大容量",
+              "subtitle": "65W · 可充笔记本",
+              "price": 299.0,
+              "originPrice": 349.0,
+              "sales": 472,
+              "stock": 68,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "65W 输出"
+              ],
+              "description": "20000mAh 大容量，65W · 可充笔记本。65W 输出 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 686,
+              "name": "30000mAh 户外电源",
+              "subtitle": "大功率 · 数显",
+              "price": 499.0,
+              "originPrice": 599.0,
+              "sales": 156,
+              "stock": 22,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "AC 输出"
+              ],
+              "description": "30000mAh 户外电源，大功率 · 数显。AC 输出 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 687,
+              "name": "10000mAh 自带线",
+              "subtitle": "免线出行",
+              "price": 169.0,
+              "originPrice": 199.0,
+              "sales": 934,
+              "stock": 145,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "自带双线"
+              ],
+              "description": "10000mAh 自带线，免线出行。自带双线 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 688,
+              "name": "20000mAh 磁吸款",
+              "subtitle": "支架设计",
+              "price": 359.0,
+              "originPrice": 399.0,
+              "sales": 213,
+              "stock": 31,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "带支架"
+              ],
+              "description": "20000mAh 磁吸款，支架设计。带支架 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 689,
+              "name": "5000mAh 迷你宝",
+              "subtitle": "口红大小",
+              "price": 89.0,
+              "originPrice": 109.0,
+              "sales": 1732,
+              "stock": 275,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "仅 99g"
+              ],
+              "description": "5000mAh 迷你宝，口红大小。仅 99g 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 690,
+              "name": "15000mAh 旅行款",
+              "subtitle": "双口输出",
+              "price": 219.0,
+              "originPrice": 259.0,
+              "sales": 528,
+              "stock": 76,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "双向快充",
+                "自带线设计",
+                "可上飞机"
+              ],
+              "description": "15000mAh 旅行款，双口输出。可上飞机 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
               "cover": "pic_charger"
             }
           ]
@@ -492,6 +2112,150 @@
               ],
               "description": "液态硅胶亲肤手感，内衬超纤不刮机身，全包边有效缓冲跌落脚。",
               "cover": "pic_phone"
+            },
+            {
+              "id": 691,
+              "name": "编织快充线 2m",
+              "subtitle": "100W · 耐弯折",
+              "price": 49.0,
+              "originPrice": 59.0,
+              "sales": 3421,
+              "stock": 520,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "尼龙编织"
+              ],
+              "description": "编织快充线 2m，100W · 耐弯折。尼龙编织 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 692,
+              "name": "Type-C 转 Lightning",
+              "subtitle": "MFi 认证",
+              "price": 59.0,
+              "originPrice": 79.0,
+              "sales": 1287,
+              "stock": 210,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "MFi 认证"
+              ],
+              "description": "Type-C 转 Lightning，MFi 认证。MFi 认证 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 693,
+              "name": "液态硅胶保护壳 2",
+              "subtitle": "防摔 · 亲肤",
+              "price": 59.0,
+              "originPrice": 69.0,
+              "sales": 963,
+              "stock": 160,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "液态硅胶"
+              ],
+              "description": "液态硅胶保护壳 2，防摔 · 亲肤。液态硅胶 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 694,
+              "name": "磁吸透明保护壳",
+              "subtitle": "支持无线充",
+              "price": 69.0,
+              "originPrice": 89.0,
+              "sales": 742,
+              "stock": 118,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "磁吸环"
+              ],
+              "description": "磁吸透明保护壳，支持无线充。磁吸环 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 695,
+              "name": "钢化膜两片装",
+              "subtitle": "高清防指纹",
+              "price": 29.0,
+              "originPrice": 39.0,
+              "sales": 2864,
+              "stock": 480,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "9H 硬度"
+              ],
+              "description": "钢化膜两片装，高清防指纹。9H 硬度 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 696,
+              "name": "车载支架",
+              "subtitle": "磁吸 · 出风口",
+              "price": 79.0,
+              "originPrice": 99.0,
+              "sales": 638,
+              "stock": 96,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "强力磁吸"
+              ],
+              "description": "车载支架，磁吸 · 出风口。强力磁吸 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 697,
+              "name": "收纳包",
+              "subtitle": "防水 · 多隔层",
+              "price": 39.0,
+              "originPrice": 49.0,
+              "sales": 1052,
+              "stock": 180,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "防水面料"
+              ],
+              "description": "收纳包，防水 · 多隔层。防水面料 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
+            },
+            {
+              "id": 698,
+              "name": "数据线三合一",
+              "subtitle": "一拖三",
+              "price": 45.0,
+              "originPrice": 59.0,
+              "sales": 1376,
+              "stock": 240,
+              "icon": "charger",
+              "params": [
+                "编织线身",
+                "支持 100W",
+                "1.5m 长度",
+                "三接口"
+              ],
+              "description": "数据线三合一，一拖三。三接口 加持，潮玩配件小铺 官方直营，支持七天无理由退货。",
+              "cover": "pic_charger"
             }
           ]
         }
@@ -543,6 +2307,150 @@
               ],
               "description": "轻量入门款，100+ 运动模式与蓝牙通话，续航 7 天。",
               "cover": "pic_watch"
+            },
+            {
+              "id": 699,
+              "name": "智联 Watch 6 Pro",
+              "subtitle": "钛金属 · 双频定位",
+              "price": 1799.0,
+              "originPrice": 1999.0,
+              "sales": 287,
+              "stock": 26,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "双频 GPS"
+              ],
+              "description": "智联 Watch 6 Pro，钛金属 · 双频定位。双频 GPS 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 700,
+              "name": "智联 Watch GT 5",
+              "subtitle": "长续航 · 运动",
+              "price": 1099.0,
+              "originPrice": 1299.0,
+              "sales": 612,
+              "stock": 78,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "14 天续航"
+              ],
+              "description": "智联 Watch GT 5，长续航 · 运动。14 天续航 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 701,
+              "name": "智联 Watch SE 2",
+              "subtitle": "入门智能",
+              "price": 599.0,
+              "originPrice": 699.0,
+              "sales": 943,
+              "stock": 135,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "心率血氧"
+              ],
+              "description": "智联 Watch SE 2，入门智能。心率血氧 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 702,
+              "name": "智联 Watch 儿童版",
+              "subtitle": "定位 · 通话",
+              "price": 459.0,
+              "originPrice": 559.0,
+              "sales": 468,
+              "stock": 82,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "4G 通话"
+              ],
+              "description": "智联 Watch 儿童版，定位 · 通话。4G 通话 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 703,
+              "name": "智联 Watch 商务版",
+              "subtitle": "真皮表带",
+              "price": 1599.0,
+              "originPrice": 1799.0,
+              "sales": 143,
+              "stock": 18,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "真皮表带"
+              ],
+              "description": "智联 Watch 商务版，真皮表带。真皮表带 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 704,
+              "name": "智联 Watch 运动版",
+              "subtitle": "100 种运动模式",
+              "price": 899.0,
+              "originPrice": 999.0,
+              "sales": 524,
+              "stock": 68,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "5ATM 防水"
+              ],
+              "description": "智联 Watch 运动版，100 种运动模式。5ATM 防水 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 705,
+              "name": "智联 Watch 时尚版",
+              "subtitle": "圆盘 · 多表盘",
+              "price": 999.0,
+              "originPrice": 1099.0,
+              "sales": 387,
+              "stock": 52,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "200+ 表盘"
+              ],
+              "description": "智联 Watch 时尚版，圆盘 · 多表盘。200+ 表盘 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 706,
+              "name": "智联 Watch Ultra 2",
+              "subtitle": "钛合金 · 100 米防水",
+              "price": 2799.0,
+              "originPrice": 3099.0,
+              "sales": 96,
+              "stock": 12,
+              "icon": "watch",
+              "params": [
+                "1.5 英寸 AMOLED",
+                "血氧监测",
+                "14 天续航",
+                "蓝宝石镜面"
+              ],
+              "description": "智联 Watch Ultra 2，钛合金 · 100 米防水。蓝宝石镜面 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
             }
           ]
         },
@@ -565,6 +2473,168 @@
                 "5ATM 防水"
               ],
               "description": "1.62 英寸大屏手环，21 天超长续航，5ATM 防水可游泳佩戴。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 707,
+              "name": "智联 Band 9 Pro",
+              "subtitle": "大屏 · NFC",
+              "price": 349.0,
+              "originPrice": 399.0,
+              "sales": 1286,
+              "stock": 220,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "NFC 刷卡"
+              ],
+              "description": "智联 Band 9 Pro，大屏 · NFC。NFC 刷卡 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 708,
+              "name": "智联 Band 8",
+              "subtitle": "轻量 · 长续航",
+              "price": 199.0,
+              "originPrice": 249.0,
+              "sales": 2431,
+              "stock": 380,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "18 天续航"
+              ],
+              "description": "智联 Band 8，轻量 · 长续航。18 天续航 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 709,
+              "name": "智联 Band 9 运动版",
+              "subtitle": "多运动模式",
+              "price": 279.0,
+              "originPrice": 319.0,
+              "sales": 876,
+              "stock": 140,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "50 种运动"
+              ],
+              "description": "智联 Band 9 运动版，多运动模式。50 种运动 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 710,
+              "name": "智联 Band 儿童款",
+              "subtitle": "定位 · 防丢",
+              "price": 259.0,
+              "originPrice": 299.0,
+              "sales": 542,
+              "stock": 96,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "定位防丢"
+              ],
+              "description": "智联 Band 儿童款，定位 · 防丢。定位防丢 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 711,
+              "name": "智联 Band 睡眠版",
+              "subtitle": "睡眠监测",
+              "price": 299.0,
+              "originPrice": 349.0,
+              "sales": 418,
+              "stock": 72,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "睡眠分析"
+              ],
+              "description": "智联 Band 睡眠版，睡眠监测。睡眠分析 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 712,
+              "name": "智联 Band 血氧版",
+              "subtitle": "血氧心率",
+              "price": 319.0,
+              "originPrice": 359.0,
+              "sales": 376,
+              "stock": 64,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "全天血氧"
+              ],
+              "description": "智联 Band 血氧版，血氧心率。全天血氧 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 713,
+              "name": "智联 Band 青春版",
+              "subtitle": "多彩表带",
+              "price": 149.0,
+              "originPrice": 179.0,
+              "sales": 1524,
+              "stock": 260,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "6 色表带"
+              ],
+              "description": "智联 Band 青春版，多彩表带。6 色表带 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 714,
+              "name": "智联 Band 9 NFC 版",
+              "subtitle": "刷卡 · 门禁",
+              "price": 379.0,
+              "originPrice": 429.0,
+              "sales": 692,
+              "stock": 108,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "门禁模拟"
+              ],
+              "description": "智联 Band 9 NFC 版，刷卡 · 门禁。门禁模拟 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": "pic_watch"
+            },
+            {
+              "id": 715,
+              "name": "智联 Band 专业版",
+              "subtitle": "双频 GPS",
+              "price": 499.0,
+              "originPrice": 559.0,
+              "sales": 214,
+              "stock": 34,
+              "icon": "watch",
+              "params": [
+                "1.1 英寸 AMOLED",
+                "心率血氧",
+                "续航 18 天",
+                "双频定位"
+              ],
+              "description": "智联 Band 专业版，双频 GPS。双频定位 加持，智联智能家居 官方直营，支持七天无理由退货。",
               "cover": "pic_watch"
             }
           ]
@@ -606,6 +2676,150 @@
                 "电控水箱"
               ],
               "description": "LDS 激光导航建图精准，5000Pa 强吸力配合电控水箱，扫拖一次完成。",
+              "cover": ""
+            },
+            {
+              "id": 716,
+              "name": "智能门锁 Lite",
+              "subtitle": "指纹 · 密码",
+              "price": 999.0,
+              "originPrice": 1199.0,
+              "sales": 312,
+              "stock": 42,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "半导体指纹"
+              ],
+              "description": "智能门锁 Lite，指纹 · 密码。半导体指纹 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 717,
+              "name": "智能门锁 Max",
+              "subtitle": "3D 人脸 · 猫眼",
+              "price": 2299.0,
+              "originPrice": 2599.0,
+              "sales": 127,
+              "stock": 16,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "3D 结构光"
+              ],
+              "description": "智能门锁 Max，3D 人脸 · 猫眼。3D 结构光 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 718,
+              "name": "扫拖机器人 Pro",
+              "subtitle": "激光导航 · 自动集尘",
+              "price": 3299.0,
+              "originPrice": 3699.0,
+              "sales": 214,
+              "stock": 24,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "自动集尘"
+              ],
+              "description": "扫拖机器人 Pro，激光导航 · 自动集尘。自动集尘 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 719,
+              "name": "扫地机器人",
+              "subtitle": "入门款 · APP 控制",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 486,
+              "stock": 68,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "路径规划"
+              ],
+              "description": "扫地机器人，入门款 · APP 控制。路径规划 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 720,
+              "name": "智能摄像头",
+              "subtitle": "2K · 夜视",
+              "price": 199.0,
+              "originPrice": 249.0,
+              "sales": 1287,
+              "stock": 210,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "全彩夜视"
+              ],
+              "description": "智能摄像头，2K · 夜视。全彩夜视 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 721,
+              "name": "智能插座",
+              "subtitle": "电量统计 · 定时",
+              "price": 59.0,
+              "originPrice": 79.0,
+              "sales": 2143,
+              "stock": 360,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "电量统计"
+              ],
+              "description": "智能插座，电量统计 · 定时。电量统计 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 722,
+              "name": "智能灯泡",
+              "subtitle": "调色温 · 语音控制",
+              "price": 69.0,
+              "originPrice": 89.0,
+              "sales": 1672,
+              "stock": 290,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "1600 万色"
+              ],
+              "description": "智能灯泡，调色温 · 语音控制。1600 万色 加持，智联智能家居 官方直营，支持七天无理由退货。",
+              "cover": ""
+            },
+            {
+              "id": 723,
+              "name": "智能窗帘电机",
+              "subtitle": "静音 · 定时",
+              "price": 599.0,
+              "originPrice": 699.0,
+              "sales": 306,
+              "stock": 44,
+              "icon": "store",
+              "params": [
+                "APP 远程控制",
+                "支持场景联动",
+                "Wi-Fi 6 连接",
+                "静音电机"
+              ],
+              "description": "智能窗帘电机，静音 · 定时。静音电机 加持，智联智能家居 官方直营，支持七天无理由退货。",
               "cover": ""
             }
           ]
