@@ -38,6 +38,11 @@
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
 
+        <activity
+            android:name=".PayActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DigitalMall" />
+
     </application>
 
 </manifest>
