@@ -1,5 +1,6 @@
 package com.example.digitalmall;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -73,8 +74,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Store store = adapter.getItem(position);
-                // 店铺详情页在下一个 PR 里接入，这里先做点击反馈
-                UIUtil.toast(MainActivity.this, "即将进入：" + store.getName());
+                Intent intent = new Intent(MainActivity.this, StoreDetailActivity.class);
+                intent.putExtra(StoreDetailActivity.EXTRA_STORE_ID, store.getId());
+                intent.putExtra(StoreDetailActivity.EXTRA_STORE_NAME, store.getName());
+                intent.putExtra(StoreDetailActivity.EXTRA_STORE_NOTICE, store.getNotice());
+                intent.putExtra(StoreDetailActivity.EXTRA_THEME_COLOR, store.getThemeColor());
+                intent.putExtra(StoreDetailActivity.EXTRA_DELIVERY_FEE, store.getDeliveryFee());
+                startActivity(intent);
             }
         });
 
