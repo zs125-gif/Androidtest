@@ -82,6 +82,14 @@ public class HomeFragment extends Fragment {
         tvEmpty = view.findViewById(R.id.tv_empty);
         tvStoreCount = view.findViewById(R.id.tv_store_count);
 
+        // 首页的搜索框只是入口，真正的输入与结果展示在搜索页完成
+        view.findViewById(R.id.layout_search).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), SearchActivity.class));
+            }
+        });
+
         adapter = new StoreAdapter(requireContext());
         gridStore.setAdapter(adapter);
         gridStore.setOnItemClickListener(new AdapterView.OnItemClickListener() {

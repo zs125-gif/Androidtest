@@ -565,7 +565,8 @@
           ]
         }
       ],
-      "cover": "pic_store_1"
+      "cover": "pic_store_1",
+      "themeColor": "#4A7CFF"
     },
     {
       "id": 2,
@@ -1130,7 +1131,8 @@
           ]
         }
       ],
-      "cover": "pic_store_2"
+      "cover": "pic_store_2",
+      "themeColor": "#7C5CFF"
     },
     {
       "id": 3,
@@ -1695,7 +1697,8 @@
           ]
         }
       ],
-      "cover": "pic_store_3"
+      "cover": "pic_store_3",
+      "themeColor": "#12B5A5"
     },
     {
       "id": 4,
@@ -2260,7 +2263,8 @@
           ]
         }
       ],
-      "cover": "pic_store_4"
+      "cover": "pic_store_4",
+      "themeColor": "#FF8A3D"
     },
     {
       "id": 5,
@@ -2825,7 +2829,8 @@
           ]
         }
       ],
-      "cover": "pic_store_5"
+      "cover": "pic_store_5",
+      "themeColor": "#FF6B8B"
     }
   ]
 }
