@@ -127,7 +127,11 @@ public class OrderActivity extends AppCompatActivity {
     }
 
     private void goPay() {
-        // 收银台页面在下一个 PR 接入
-        UIUtil.toast(this, String.format(Locale.CHINA, "应付 ¥%.2f，正在打开收银台…", totalPrice));
+        Intent intent = new Intent(this, PayActivity.class);
+        intent.putExtra(PayActivity.EXTRA_STORE_ID, storeId);
+        intent.putExtra(PayActivity.EXTRA_STORE_NAME, storeName);
+        intent.putExtra(PayActivity.EXTRA_AMOUNT, totalPrice);
+        startActivity(intent);
+        finish();
     }
 }

@@ -55,4 +55,18 @@
     <string name="order_tip">下单后由品牌方直发，预计 48 小时内送达</string>
     <string name="free_delivery">免配送费</string>
     <string name="go_pay">去支付</string>
+
+    <!-- 支付 -->
+    <string name="pay_title">收银台</string>
+    <string name="pay_amount_label">应付金额</string>
+    <string name="pay_qr_desc">支付二维码</string>
+    <string name="pay_scan_tip">请使用手机扫描二维码完成支付</string>
+    <string name="pay_scan_sub_tip">演示项目，二维码为矢量占位图</string>
+    <string name="pay_method">支付方式：微信支付</string>
+    <string name="pay_method_recommend">推荐</string>
+    <string name="pay_done">我已完成支付</string>
+    <string name="paying">正在确认支付结果…</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_success_tip">订单已提交，可在「我的订单」中查看物流</string>
+    <string name="back_home">返回首页</string>
 </resources>
