@@ -1,12 +1,17 @@
 package com.example.digitalmall.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * 商品实体类，对应 store_detail.json 中 products 数组的一个元素。
+ * <p>
+ * 实现 Serializable 是为了在 Activity 之间用 Intent 直接传整个商品对象。
  */
-public class Product {
+public class Product implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     private int id;
     private String name;

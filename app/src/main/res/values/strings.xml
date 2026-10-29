@@ -33,4 +33,13 @@
     <string name="cart_cleared">购物车已清空</string>
     <string name="cart_empty_tip">请先添加商品到购物车</string>
     <string name="empty_product_list">该店铺暂无商品</string>
+
+    <!-- 商品详情 -->
+    <string name="product_detail_title">商品详情</string>
+    <string name="service_tags">七天无理由退货  ·  全国联保  ·  顺丰包邮</string>
+    <string name="params_title">规格参数</string>
+    <string name="description_title">商品详情</string>
+    <string name="description_empty">暂无更多描述</string>
+    <string name="product_missing">商品信息获取失败，请返回重试</string>
+    <string name="stock_not_enough">库存不足</string>
 </resources>
