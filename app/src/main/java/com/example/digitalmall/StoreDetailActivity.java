@@ -3,6 +3,7 @@ package com.example.digitalmall;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -33,6 +34,8 @@ import java.util.Locale;
  * 对应教材 15.5「实现店铺详情功能业务」：分栏列表、加入购物车、清空购物车。
  */
 public class StoreDetailActivity extends AppCompatActivity implements ProductAdapter.OnProductActionListener {
+
+    private static final String TAG = "StoreDetailActivity";
 
     public static final String EXTRA_STORE_ID = "extra_store_id";
     public static final String EXTRA_STORE_NAME = "extra_store_name";
@@ -146,8 +149,9 @@ public class StoreDetailActivity extends AppCompatActivity implements ProductAda
 
             @Override
             public void onFailure(String message) {
+                // 离线数据与服务器数据一致，静默降级即可，不打扰用户
                 applyCategories(parseOffline());
-                UIUtil.toast(StoreDetailActivity.this, getString(R.string.net_error));
+                Log.i(TAG, "服务器不可用，已静默切换到内置离线数据（店铺详情）：" + message);
             }
         });
     }

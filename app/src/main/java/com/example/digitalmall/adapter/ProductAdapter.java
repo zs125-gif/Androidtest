@@ -100,9 +100,12 @@ public class ProductAdapter extends BaseAdapter {
 
         int count = CartManager.getInstance().getCountOf(storeId, product.getId());
         if (count > 0) {
+            // 已经加购后，原价让位给「已选 N」，避免窄屏下被挤成省略号
+            holder.tvOriginPrice.setVisibility(View.GONE);
             holder.tvCount.setVisibility(View.VISIBLE);
             holder.tvCount.setText(String.format(Locale.CHINA, "已选 %d", count));
         } else {
+            holder.tvOriginPrice.setVisibility(View.VISIBLE);
             holder.tvCount.setVisibility(View.GONE);
         }
 

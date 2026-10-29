@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +38,7 @@ import java.util.Locale;
  */
 public class HomeFragment extends Fragment {
 
+    private static final String TAG = "HomeFragment";
     private static final int MSG_STORE_LOADED = 0x11;
 
     private GridView gridStore;
@@ -132,7 +134,12 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    /** 服务器不可用时读取 res/raw 下的离线数据，保证界面不空白 */
+    /**
+     * 服务器不可用时读取 res/raw 下的离线数据，保证界面不空白。
+     * <p>
+     * 离线数据与服务器数据内容一致，用户看不出差别，所以这里只写日志、不弹提示，
+     * 避免把「数据源切换」这种内部细节当成错误抛给用户。
+     */
     private void loadOfflineData() {
         if (!isAdded()) {
             return;
@@ -140,7 +147,7 @@ public class HomeFragment extends Fragment {
         try {
             List<Store> stores = JsonParser.parseStores(RawData.storeListJson(requireContext()));
             adapter.setData(stores);
-            UIUtil.toast(requireContext(), getString(R.string.net_error));
+            Log.i(TAG, "服务器不可用，已静默切换到内置离线数据（店铺列表）");
         } catch (Exception e) {
             adapter.setData(null);
             UIUtil.toast(requireContext(), getString(R.string.parse_error));
