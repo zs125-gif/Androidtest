@@ -232,8 +232,11 @@ public class StoreDetailActivity extends AppCompatActivity implements ProductAda
 
     @Override
     public void onProductClick(Product product) {
-        // 商品详情页在下一个 PR 接入
-        UIUtil.toast(this, "查看商品：" + product.getName());
+        Intent intent = new Intent(this, ProductDetailActivity.class);
+        intent.putExtra(ProductDetailActivity.EXTRA_PRODUCT, product);
+        intent.putExtra(ProductDetailActivity.EXTRA_STORE_ID, storeId);
+        intent.putExtra(ProductDetailActivity.EXTRA_THEME_COLOR, themeColor);
+        startActivity(intent);
     }
 
     @Override
