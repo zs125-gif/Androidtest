@@ -42,4 +42,17 @@
     <string name="description_empty">暂无更多描述</string>
     <string name="product_missing">商品信息获取失败，请返回重试</string>
     <string name="stock_not_enough">库存不足</string>
+
+    <!-- 订单确认 -->
+    <string name="order_title">确认订单</string>
+    <string name="address">收货地址</string>
+    <string name="receiver_name">张同学</string>
+    <string name="receiver_phone">138****8888</string>
+    <string name="receiver_address">广东省深圳市南山区科技园南路 8 号楼 1203 室</string>
+    <string name="order_subtotal">商品小计</string>
+    <string name="order_delivery_fee">配送费</string>
+    <string name="order_total">合计</string>
+    <string name="order_tip">下单后由品牌方直发，预计 48 小时内送达</string>
+    <string name="free_delivery">免配送费</string>
+    <string name="go_pay">去支付</string>
 </resources>
