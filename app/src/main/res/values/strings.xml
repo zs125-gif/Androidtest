@@ -123,7 +123,8 @@
 
     <!-- 个人中心 -->
     <string name="mine_title">个人中心</string>
-    <string name="not_login">点击登录，享受完整购物体验</string>
+    <string name="not_login">点击登录</string>
+    <string name="not_login_sub">享受完整购物体验</string>
     <string name="login_or_register">登录 / 注册</string>
     <string name="my_orders">我的订单</string>
     <string name="my_orders_count">共 %1$d 笔</string>

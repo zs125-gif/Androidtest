@@ -134,7 +134,9 @@ public class MineFragment extends Fragment {
         if (user == null) {
             tvAvatar.setText("?");
             tvNickname.setText(R.string.not_login);
-            tvPhone.setVisibility(View.GONE);
+            // 手机屏窄，长文案会和右侧按钮抢位置被省略号截断，拆成主副两行
+            tvPhone.setVisibility(View.VISIBLE);
+            tvPhone.setText(R.string.not_login_sub);
             btnLogin.setVisibility(View.VISIBLE);
             btnLogout.setVisibility(View.GONE);
             tvOrderCount.setText(String.format(Locale.CHINA, "共 %d 笔", 0));
