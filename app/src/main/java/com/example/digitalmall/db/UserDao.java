@@ -7,6 +7,7 @@ import android.database.sqlite.SQLiteConstraintException;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.digitalmall.model.User;
+import com.example.digitalmall.util.PasswordUtil;
 
 /**
  * users 表的读写（注册、登录校验、按用户名查询）。
@@ -26,7 +27,7 @@ public class UserDao {
         SQLiteDatabase db = DBHelper.getInstance(context).getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put("username", username);
-        values.put("password", password);
+        values.put("password", PasswordUtil.hash(password));
         values.put("phone", phone);
         values.put("nickname", nickname);
         values.put("created", System.currentTimeMillis());
@@ -62,9 +63,14 @@ public class UserDao {
         try {
             if (cursor.moveToFirst()) {
                 String saved = cursor.getString(cursor.getColumnIndexOrThrow("password"));
-                if (saved != null && saved.equals(password)) {
+                if (PasswordUtil.matches(password, saved)) {
+                    int id = cursor.getInt(cursor.getColumnIndexOrThrow("_id"));
+                    // 老版本存的明文密码，登录成功后顺手升级成加盐哈希
+                    if (PasswordUtil.isLegacy(saved)) {
+                        upgradePassword(context, id, password);
+                    }
                     User user = new User();
-                    user.setId(cursor.getInt(cursor.getColumnIndexOrThrow("_id")));
+                    user.setId(id);
                     user.setUsername(cursor.getString(cursor.getColumnIndexOrThrow("username")));
                     user.setPhone(cursor.getString(cursor.getColumnIndexOrThrow("phone")));
                     user.setNickname(cursor.getString(cursor.getColumnIndexOrThrow("nickname")));
@@ -75,5 +81,13 @@ public class UserDao {
             cursor.close();
         }
         return null;
+    }
+
+    /** 把指定用户的密码改成加盐哈希（用于明文老数据升级） */
+    private static void upgradePassword(Context context, int id, String plainPassword) {
+        SQLiteDatabase db = DBHelper.getInstance(context).getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put("password", PasswordUtil.hash(plainPassword));
+        db.update(DBHelper.TABLE_USER, values, "_id=?", new String[]{String.valueOf(id)});
     }
 }
