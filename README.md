@@ -20,9 +20,9 @@
 
 ## 技术栈
 
-- 语言：Java 11
-- 编译：`compileSdk 33` / `minSdk 26` / `targetSdk 33`
-- 构建：AGP 8.0.2 + Gradle 8.0
+- 语言：Java 17
+- 编译：`compileSdk 36` / `minSdk 26` / `targetSdk 36`
+- 构建：AGP 9.5.0 + Gradle 9.8.2（需 JDK 17+，Android Studio 2024.3 及以上）
 - 依赖：`appcompat`、`constraintlayout`、`cardview`
 - 数据：本地/远程 JSON + `HttpURLConnection` + `org.json`
 
@@ -46,7 +46,7 @@ DigitalMall/
 
 ## 怎么跑起来
 
-1. **导入工程**：Android Studio 打开 `DigitalMall` 目录，等待 Gradle Sync 完成（首次会下载 Gradle 8.0 与依赖）。
+1. **导入工程**：Android Studio 打开 `DigitalMall` 目录，等待 Gradle Sync 完成（首次会下载 Gradle 9.8.2 与依赖）。
 2. **启动数据服务**（可选）：
    ```bash
    cd server
@@ -69,9 +69,11 @@ DigitalMall/
 
 | PR | 分支 | 内容 |
 | --- | --- | --- |
-| #1 | `chore/project-scaffold` | 工程骨架、主题资源、网络与数据基类、演示数据 |
-| #2 | `feature/p1-store-list` | 首页：品牌店铺列表 |
-| #3 | `feature/p2-store-detail` | 店铺详情：分类导航 + 商品列表 + 购物车 |
-| #4 | `feature/p3-product-detail` | 商品详情页 |
-| #5 | `feature/p4-order` | 订单确认页 |
-| #6 | `feature/p5-payment` | 扫码支付页 |
+| — | `main` | 工程骨架、主题资源、网络与数据基类、演示数据（直接提交到主干） |
+| #1 | `feature/p1-store-list` | 首页：品牌店铺列表 |
+| #2 | `feature/p2-store-detail` | 店铺详情：分类导航 + 商品列表 + 购物车 |
+| #3 | `feature/p3-product-detail` | 商品详情页 |
+| #4 | `feature/p4-order` | 订单确认页 |
+| #5 | `feature/p5-payment` | 扫码支付页 |
+
+仓库地址：https://github.com/zs125-gif/Androidtest

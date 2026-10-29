@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.example.digitalmall'
-    compileSdk 33
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.example.digitalmall"
         minSdk 26
-        targetSdk 33
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
@@ -24,12 +24,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-
-    buildFeatures {
-        viewBinding false
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
