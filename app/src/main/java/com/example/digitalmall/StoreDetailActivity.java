@@ -225,9 +225,12 @@ public class StoreDetailActivity extends AppCompatActivity implements ProductAda
             UIUtil.toast(this, getString(R.string.cart_empty_tip));
             return;
         }
-        // 订单页在下一个 PR 接入
-        UIUtil.toast(this, String.format(Locale.CHINA, "共 %d 件，合计 ¥%.2f",
-                cartManager.getTotalCount(storeId), cartManager.getTotalPrice(storeId)));
+        Intent intent = new Intent(this, OrderActivity.class);
+        intent.putExtra(OrderActivity.EXTRA_STORE_ID, storeId);
+        intent.putExtra(OrderActivity.EXTRA_STORE_NAME, storeName);
+        intent.putExtra(OrderActivity.EXTRA_DELIVERY_FEE, deliveryFee);
+        intent.putExtra(OrderActivity.EXTRA_THEME_COLOR, themeColor);
+        startActivity(intent);
     }
 
     @Override
