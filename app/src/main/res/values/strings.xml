@@ -69,4 +69,53 @@
     <string name="pay_success">支付成功</string>
     <string name="pay_success_tip">订单已提交，可在「我的订单」中查看物流</string>
     <string name="back_home">返回首页</string>
+
+    <!-- 登录 / 注册 -->
+    <string name="login_title">登录</string>
+    <string name="login_welcome">欢迎回来</string>
+    <string name="login_subtitle">登录后可同步购物车与历史订单</string>
+    <string name="username_hint">请输入账号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="confirm_password_hint">请再次输入密码</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="nickname_hint">昵称（选填）</string>
+    <string name="login">登 录</string>
+    <string name="register">注 册</string>
+    <string name="no_account">还没有账号？</string>
+    <string name="register_now">立即注册</string>
+    <string name="has_account">已有账号？</string>
+    <string name="login_now">去登录</string>
+    <string name="register_title">注册新账号</string>
+    <string name="register_subtitle">注册后即可下单，订单会保存到本地数据库</string>
+    <string name="err_username_empty">请输入账号</string>
+    <string name="err_username_short">账号至少 3 个字符</string>
+    <string name="err_password_empty">请输入密码</string>
+    <string name="err_password_short">密码至少 6 位</string>
+    <string name="err_password_diff">两次输入的密码不一致</string>
+    <string name="err_phone_invalid">请输入 11 位手机号</string>
+    <string name="err_user_exists">该账号已被注册，请换一个</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">账号或密码错误</string>
+    <string name="register_success">注册成功，正在登录…</string>
+    <string name="register_failed">注册失败，请稍后重试</string>
+
+    <!-- 个人中心 -->
+    <string name="mine_title">个人中心</string>
+    <string name="not_login">点击登录，享受完整购物体验</string>
+    <string name="login_or_register">登录 / 注册</string>
+    <string name="my_orders">我的订单</string>
+    <string name="my_orders_count">共 %1$d 笔</string>
+    <string name="order_list_title">我的订单</string>
+    <string name="order_empty">还没有订单，去逛逛吧</string>
+    <string name="my_cart">我的购物车</string>
+    <string name="settings">设置</string>
+    <string name="about">关于本应用</string>
+    <string name="about_content">数码商城 · 课程设计演示项目\n技术栈：Activity/Fragment、ListView、Intent、SharedPreferences、SQLite、JSON 解析</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_confirm">确定要退出登录吗？</string>
+    <string name="logout_done">已退出登录</string>
+    <string name="welcome_back">%1$s，欢迎回来</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_mine">我的</string>
+    <string name="need_login">请先登录</string>
 </resources>
