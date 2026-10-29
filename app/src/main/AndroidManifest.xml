@@ -17,6 +17,7 @@
 
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,44 +27,52 @@
 
         <activity
             android:name=".SearchActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".StoreDetailActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
 
         <activity
             android:name=".ProductDetailActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
 
         <activity
             android:name=".OrderActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
 
         <activity
             android:name=".PayActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
 
         <activity
             android:name=".LoginActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".RegisterActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall"
             android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".OrderListActivity"
+            android:screenOrientation="portrait"
             android:exported="false"
             android:theme="@style/Theme.DigitalMall" />
 

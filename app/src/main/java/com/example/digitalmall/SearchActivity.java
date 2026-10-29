@@ -262,16 +262,43 @@ public class SearchActivity extends AppCompatActivity implements SearchAdapter.O
     private void renderHistory() {
         List<String> history = SearchHistory.get(this);
         layoutHistory.setVisibility(history.isEmpty() ? View.GONE : View.VISIBLE);
-        llHistory.removeAllViews();
-        for (String word : history) {
-            llHistory.addView(createTag(word));
-        }
+        fillTags(llHistory, history);
     }
 
     private void fillHotWords() {
-        llHot.removeAllViews();
-        for (String word : getResources().getStringArray(R.array.search_hot_words)) {
-            llHot.addView(createTag(word));
+        fillTags(llHot, java.util.Arrays.asList(getResources().getStringArray(R.array.search_hot_words)));
+    }
+
+    /**
+     * 关键词按可用宽度自动换行。
+     * 手机屏只有 360dp 宽，一行放不下全部热词，靠横向滚动会让最后一个词只露出半截，
+     * 所以这里量一下每个胶囊的宽度，放不下就另起一行。
+     */
+    private void fillTags(LinearLayout container, List<String> words) {
+        container.removeAllViews();
+        if (words == null || words.isEmpty()) {
+            return;
+        }
+        int avail = getResources().getDisplayMetrics().widthPixels
+                - UIUtil.dp(this, 28) - UIUtil.dp(this, 2);
+        LinearLayout row = null;
+        int used = 0;
+        for (String word : words) {
+            View tag = createTag(word);
+            tag.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+            int w = tag.getMeasuredWidth() + UIUtil.dp(this, 8);
+            if (row == null || used + w > avail) {
+                row = new LinearLayout(this);
+                row.setOrientation(LinearLayout.HORIZONTAL);
+                LinearLayout.LayoutParams rowParams = new LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+                rowParams.topMargin = UIUtil.dp(this, 8);
+                container.addView(row, rowParams);
+                used = 0;
+            }
+            row.addView(tag);
+            used += w;
         }
     }
 
