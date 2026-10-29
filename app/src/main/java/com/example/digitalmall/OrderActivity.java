@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.digitalmall.model.CartItem;
+import com.example.digitalmall.model.Product;
 import com.example.digitalmall.util.CartManager;
 import com.example.digitalmall.util.UIUtil;
 
@@ -93,10 +94,11 @@ public class OrderActivity extends AppCompatActivity {
         for (CartItem item : items) {
             View row = inflater.inflate(R.layout.item_order_product, container, false);
 
+            // 和其它列表保持一致：优先真实商品图，没有图才退回渐变 + 品类图标
             ImageView ivCover = row.findViewById(R.id.iv_cover);
-            ivCover.setBackground(UIUtil.coverDrawable(this, themeColor, 8f));
             ImageView ivIcon = row.findViewById(R.id.iv_icon);
-            ivIcon.setImageResource(UIUtil.iconRes(item.getProduct().getIcon()));
+            Product p = item.getProduct();
+            UIUtil.bindCover(this, ivCover, ivIcon, p.getCover(), p.getIcon(), themeColor, 8f);
 
             ((TextView) row.findViewById(R.id.tv_name)).setText(item.getProduct().getName());
             ((TextView) row.findViewById(R.id.tv_subtitle)).setText(item.getProduct().getSubtitle());
