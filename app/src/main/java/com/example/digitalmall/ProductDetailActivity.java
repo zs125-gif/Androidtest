@@ -72,11 +72,22 @@ public class ProductDetailActivity extends AppCompatActivity {
 
     private void bindProduct(String themeColor) {
         ImageView ivCover = findViewById(R.id.iv_cover);
-        ivCover.setBackground(UIUtil.coverDrawable(this, themeColor, 10f));
-        ImageLoader.load(product.getCover(), ivCover, 0);
-
         ImageView ivIcon = findViewById(R.id.iv_icon);
-        ivIcon.setImageResource(UIUtil.iconRes(product.getIcon()));
+
+        int picRes = UIUtil.picRes(product.getCover());
+        if (picRes != 0) {
+            // 详情页顶部大图：白底 + fitCenter，保证整机完整不被裁切
+            ivCover.setBackgroundColor(android.graphics.Color.WHITE);
+            ivCover.setScaleType(ImageView.ScaleType.FIT_CENTER);
+            ivCover.setImageResource(picRes);
+            ivIcon.setVisibility(View.GONE);
+        } else {
+            ivCover.setBackground(UIUtil.coverDrawable(this, themeColor, 10f));
+            ivCover.setScaleType(ImageView.ScaleType.CENTER_CROP);
+            ImageLoader.load(product.getCover(), ivCover, 0);
+            ivIcon.setVisibility(View.VISIBLE);
+            ivIcon.setImageResource(UIUtil.iconRes(product.getIcon()));
+        }
 
         ((TextView) findViewById(R.id.tv_name)).setText(product.getName());
         ((TextView) findViewById(R.id.tv_subtitle)).setText(product.getSubtitle());
