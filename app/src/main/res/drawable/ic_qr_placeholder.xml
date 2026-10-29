@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 支付二维码占位图：三个定位角 + 随机码点，纯矢量绘制，不需要图片资源 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- 左上定位角 -->
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M10,10h30v30h-30z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,16h18v18h-18z" />
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M22,22h6v6h-6z" />
+
+    <!-- 右上定位角 -->
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M80,10h30v30h-30z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M86,16h18v18h-18z" />
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M92,22h6v6h-6z" />
+
+    <!-- 左下定位角 -->
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M10,80h30v30h-30z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16,86h18v18h-18z" />
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M22,92h6v6h-6z" />
+
+    <!-- 码点 -->
+    <path
+        android:fillColor="#1A1D26"
+        android:pathData="M48,10h6v6h-6z M60,10h6v6h-6z M66,16h6v6h-6z M48,22h6v6h-6z M60,28h6v6h-6z M72,22h6v6h-6z M48,34h6v6h-6z M54,40h6v6h-6z M66,34h6v6h-6z M72,40h6v6h-6z M48,48h6v6h-6z M60,48h6v6h-6z M72,48h6v6h-6z M84,48h6v6h-6z M96,48h6v6h-6z M10,48h6v6h-6z M22,48h6v6h-6z M34,48h6v6h-6z M10,60h6v6h-6z M22,60h6v6h-6z M34,60h6v6h-6z M48,60h6v6h-6z M66,60h6v6h-6z M78,60h6v6h-6z M90,60h6v6h-6z M102,60h6v6h-6z M10,72h6v6h-6z M28,72h6v6h-6z M40,72h6v6h-6z M54,72h6v6h-6z M66,72h6v6h-6z M78,72h6v6h-6z M96,72h6v6h-6z M54,84h6v6h-6z M66,84h6v6h-6z M78,84h6v6h-6z M90,84h6v6h-6z M104,84h6v6h-6z M48,96h6v6h-6z M60,96h6v6h-6z M72,96h6v6h-6z M84,96h6v6h-6z M96,96h6v6h-6z M108,96h6v6h-6z M48,108h6v6h-6z M66,108h6v6h-6z M90,108h6v6h-6z M102,108h6v6h-6z" />
+</vector>

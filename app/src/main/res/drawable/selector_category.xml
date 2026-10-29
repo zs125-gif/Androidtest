@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中分类：白底，与右侧商品区融为一体 -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_card" />
+        </shape>
+    </item>
+    <!-- 未选中分类：灰色底 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_gray" />
+        </shape>
+    </item>
+</selector>

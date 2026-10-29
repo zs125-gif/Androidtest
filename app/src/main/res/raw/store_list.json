@@ -1,0 +1,76 @@
+{
+  "code": 200,
+  "message": "success",
+  "storeList": [
+    {
+      "id": 1,
+      "name": "星辰数码旗舰店",
+      "slogan": "手机 · 平板 · 官方直营",
+      "monthSales": 3286,
+      "rating": 4.9,
+      "deliveryFee": 5,
+      "deliveryTime": "25分钟",
+      "notice": "正品行货 · 全国联保 · 七天无理由退货",
+      "promotion": "满3000减200",
+      "themeColor": "#4A7CFF",
+      "icon": "phone",
+      "cover": "http://10.0.2.2:8080/img/store1.png"
+    },
+    {
+      "id": 2,
+      "name": "极客笔记本专营店",
+      "slogan": "轻薄本 · 游戏本 · 商务本",
+      "monthSales": 1865,
+      "rating": 4.8,
+      "deliveryFee": 8,
+      "deliveryTime": "40分钟",
+      "notice": "官方授权 · 三年质保 · 支持上门服务",
+      "promotion": "满5000减300",
+      "themeColor": "#7C5CFF",
+      "icon": "laptop",
+      "cover": "http://10.0.2.2:8080/img/store2.png"
+    },
+    {
+      "id": 3,
+      "name": "声动音频馆",
+      "slogan": "耳机 · 音箱 · 现场试听",
+      "monthSales": 5421,
+      "rating": 4.7,
+      "deliveryFee": 3,
+      "deliveryTime": "20分钟",
+      "notice": "30 天无理由试听 · 假一赔十",
+      "promotion": "第二件半价",
+      "themeColor": "#12B5A5",
+      "icon": "headset",
+      "cover": "http://10.0.2.2:8080/img/store3.png"
+    },
+    {
+      "id": 4,
+      "name": "潮玩配件小铺",
+      "slogan": "充电 · 保护 · 线材",
+      "monthSales": 8932,
+      "rating": 4.6,
+      "deliveryFee": 2,
+      "deliveryTime": "15分钟",
+      "notice": "闪电发货 · 当天 17 点前下单当日发",
+      "promotion": "满99减15",
+      "themeColor": "#FF8A3D",
+      "icon": "charger",
+      "cover": "http://10.0.2.2:8080/img/store4.png"
+    },
+    {
+      "id": 5,
+      "name": "智联智能家居",
+      "slogan": "手表 · 手环 · 智能家居",
+      "monthSales": 2130,
+      "rating": 4.8,
+      "deliveryFee": 6,
+      "deliveryTime": "35分钟",
+      "notice": "以旧换新 · 最高补贴 500 元",
+      "promotion": "以旧换新补贴500",
+      "themeColor": "#FF6B8B",
+      "icon": "watch",
+      "cover": "http://10.0.2.2:8080/img/store5.png"
+    }
+  ]
+}

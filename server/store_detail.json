@@ -1,0 +1,585 @@
+{
+  "code": 200,
+  "message": "success",
+  "storeList": [
+    {
+      "id": 1,
+      "name": "星辰数码旗舰店",
+      "notice": "正品行货 · 全国联保 · 七天无理由退货",
+      "deliveryFee": 5,
+      "deliveryTime": "25分钟",
+      "categories": [
+        {
+          "name": "手机",
+          "products": [
+            {
+              "id": 101,
+              "name": "星曜 X5 Pro",
+              "subtitle": "2K 微曲屏 · 潜望长焦 · 100W 闪充",
+              "price": 4999.0,
+              "originPrice": 5499.0,
+              "sales": 1268,
+              "stock": 32,
+              "icon": "phone",
+              "params": [
+                "骁龙 8 Gen3",
+                "12GB + 512GB",
+                "6.78 英寸 2K 曲面屏",
+                "5000mAh / 100W"
+              ],
+              "description": "星曜 X5 Pro 搭载全新骁龙 8 Gen3 平台，2K 微曲屏支持 120Hz 自适应刷新率，潜望长焦最高 100 倍变焦，100W 有线闪充 26 分钟充满。"
+            },
+            {
+              "id": 102,
+              "name": "星曜 X5",
+              "subtitle": "1.5K 直屏 · 大电池长续航",
+              "price": 3699.0,
+              "originPrice": 3999.0,
+              "sales": 2043,
+              "stock": 58,
+              "icon": "phone",
+              "params": [
+                "骁龙 8 Gen2",
+                "12GB + 256GB",
+                "6.67 英寸 1.5K 直屏",
+                "5500mAh / 80W"
+              ],
+              "description": "直屏手感更稳，5500mAh 大电池配合 80W 快充，重度使用一整天无压力。"
+            },
+            {
+              "id": 103,
+              "name": "星曜 Note 12",
+              "subtitle": "千元档 · 大屏娱乐",
+              "price": 1999.0,
+              "originPrice": 2299.0,
+              "sales": 5621,
+              "stock": 120,
+              "icon": "phone",
+              "params": [
+                "骁龙 7s",
+                "8GB + 256GB",
+                "6.7 英寸 120Hz",
+                "5000mAh / 67W"
+              ],
+              "description": "大屏娱乐利器，120Hz 高刷屏 + 立体双扬声器，追剧游戏两不误。"
+            }
+          ]
+        },
+        {
+          "name": "平板",
+          "products": [
+            {
+              "id": 104,
+              "name": "星曜 Pad Air",
+              "subtitle": "11 英寸 2.5K · 轻薄办公",
+              "price": 2699.0,
+              "originPrice": 2999.0,
+              "sales": 876,
+              "stock": 41,
+              "icon": "tablet",
+              "params": [
+                "骁龙 870",
+                "8GB + 256GB",
+                "11 英寸 2.5K 144Hz",
+                "8840mAh"
+              ],
+              "description": "11 英寸 2.5K 高刷屏，配合手写笔与磁吸键盘，轻办公与手绘都合适。"
+            },
+            {
+              "id": 105,
+              "name": "星曜 Pad mini",
+              "subtitle": "8.8 英寸 · 随身影音",
+              "price": 1899.0,
+              "originPrice": 2099.0,
+              "sales": 1320,
+              "stock": 66,
+              "icon": "tablet",
+              "params": [
+                "骁龙 7+",
+                "8GB + 128GB",
+                "8.8 英寸 2.5K",
+                "6550mAh"
+              ],
+              "description": "单手可握的小尺寸平板，通勤路上追剧看小说刚刚好。"
+            }
+          ]
+        },
+        {
+          "name": "智能穿戴",
+          "products": [
+            {
+              "id": 106,
+              "name": "星曜 Watch 5",
+              "subtitle": "全天候血氧 · 14 天续航",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 968,
+              "stock": 88,
+              "icon": "watch",
+              "params": [
+                "1.43 英寸 AMOLED",
+                "支持 eSIM 通话",
+                "150+ 运动模式",
+                "14 天续航"
+              ],
+              "description": "钛合金中框，支持 eSIM 独立通话与全天候血氧监测，续航最长 14 天。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "极客笔记本专营店",
+      "notice": "官方授权 · 三年质保 · 支持上门服务",
+      "deliveryFee": 8,
+      "deliveryTime": "40分钟",
+      "categories": [
+        {
+          "name": "轻薄本",
+          "products": [
+            {
+              "id": 201,
+              "name": "极客 Air 14",
+              "subtitle": "1.28kg · 2.8K 120Hz 屏",
+              "price": 5499.0,
+              "originPrice": 5999.0,
+              "sales": 742,
+              "stock": 25,
+              "icon": "laptop",
+              "params": [
+                "酷睿 Ultra 5",
+                "16GB + 1TB",
+                "14 英寸 2.8K 120Hz",
+                "1.28kg"
+              ],
+              "description": "全金属机身仅 1.28kg，2.8K 120Hz 高色域屏，出差通勤毫无负担。"
+            },
+            {
+              "id": 202,
+              "name": "极客 Air 16",
+              "subtitle": "16 英寸大屏 · 创作本",
+              "price": 6799.0,
+              "originPrice": 7299.0,
+              "sales": 421,
+              "stock": 18,
+              "icon": "laptop",
+              "params": [
+                "酷睿 Ultra 7",
+                "32GB + 1TB",
+                "16 英寸 3.2K 165Hz",
+                "1.85kg"
+              ],
+              "description": "16 英寸 3.2K 165Hz 屏幕，100% DCI-P3 色域，视频剪辑与设计的好搭档。"
+            }
+          ]
+        },
+        {
+          "name": "游戏本",
+          "products": [
+            {
+              "id": 203,
+              "name": "极客 猎刃 16",
+              "subtitle": "RTX 4060 · 2.5K 240Hz",
+              "price": 8999.0,
+              "originPrice": 9499.0,
+              "sales": 638,
+              "stock": 12,
+              "icon": "laptop",
+              "params": [
+                "i7-14650HX",
+                "16GB + 1TB",
+                "RTX 4060 8G",
+                "2.5K 240Hz"
+              ],
+              "description": "满血 RTX 4060 独显直连，双风扇四出风口，长时间游戏不降频。"
+            },
+            {
+              "id": 204,
+              "name": "极客 猎刃 18",
+              "subtitle": "旗舰性能 · 18 英寸巨屏",
+              "price": 12999.0,
+              "originPrice": 13999.0,
+              "sales": 212,
+              "stock": 6,
+              "icon": "laptop",
+              "params": [
+                "i9-14900HX",
+                "32GB + 2TB",
+                "RTX 4070 8G",
+                "18 英寸 2.5K 240Hz"
+              ],
+              "description": "18 英寸大屏旗舰，i9 + RTX 4070，桌面级性能释放。"
+            }
+          ]
+        },
+        {
+          "name": "商务本",
+          "products": [
+            {
+              "id": 205,
+              "name": "极客 商旅 13",
+              "subtitle": "13 英寸 · 军规可靠性",
+              "price": 4299.0,
+              "originPrice": 4699.0,
+              "sales": 553,
+              "stock": 34,
+              "icon": "laptop",
+              "params": [
+                "酷睿 Ultra 5",
+                "16GB + 512GB",
+                "13.3 英寸 2.5K",
+                "指纹+人脸双解锁"
+              ],
+              "description": "通过多项军规可靠性测试，指纹与人脸双解锁，商务出行更安心。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "声动音频馆",
+      "notice": "30 天无理由试听 · 假一赔十",
+      "deliveryFee": 3,
+      "deliveryTime": "20分钟",
+      "categories": [
+        {
+          "name": "真无线",
+          "products": [
+            {
+              "id": 301,
+              "name": "声动 Buds Pro",
+              "subtitle": "自适应降噪 · 空间音频",
+              "price": 899.0,
+              "originPrice": 1099.0,
+              "sales": 3120,
+              "stock": 150,
+              "icon": "headset",
+              "params": [
+                "50dB 自适应降噪",
+                "空间音频",
+                "单次 8 小时 / 总 36 小时",
+                "IPX5 防水"
+              ],
+              "description": "50dB 深度自适应降噪，支持空间音频与双设备无缝切换。"
+            },
+            {
+              "id": 302,
+              "name": "声动 Buds Lite",
+              "subtitle": "百元档 · 半入耳舒适",
+              "price": 299.0,
+              "originPrice": 399.0,
+              "sales": 8642,
+              "stock": 320,
+              "icon": "headset",
+              "params": [
+                "半入耳设计",
+                "蓝牙 5.3",
+                "总续航 28 小时",
+                "IPX4"
+              ],
+              "description": "半入耳设计久戴不胀，蓝牙 5.3 连接稳定，通话降噪清晰。"
+            }
+          ]
+        },
+        {
+          "name": "头戴式",
+          "products": [
+            {
+              "id": 303,
+              "name": "声动 Studio 700",
+              "subtitle": "旗舰降噪 · Hi-Res 认证",
+              "price": 1599.0,
+              "originPrice": 1899.0,
+              "sales": 642,
+              "stock": 45,
+              "icon": "headset",
+              "params": [
+                "40mm 生物振膜",
+                "Hi-Res 金标",
+                "降噪续航 40 小时",
+                "支持 LDAC"
+              ],
+              "description": "40mm 生物振膜单元，Hi-Res 金标认证，支持 LDAC 无损传输。"
+            },
+            {
+              "id": 304,
+              "name": "声动 Studio 500",
+              "subtitle": "轻量头戴 · 长续航",
+              "price": 899.0,
+              "originPrice": 1099.0,
+              "sales": 1086,
+              "stock": 72,
+              "icon": "headset",
+              "params": [
+                "40mm 动圈",
+                "主动降噪",
+                "续航 50 小时",
+                "可折叠收纳"
+              ],
+              "description": "仅 220g 轻量头戴，50 小时超长续航，可折叠便于携带。"
+            }
+          ]
+        },
+        {
+          "name": "蓝牙音箱",
+          "products": [
+            {
+              "id": 305,
+              "name": "声动 小钢炮",
+              "subtitle": "便携防水 · 立体声互联",
+              "price": 399.0,
+              "originPrice": 499.0,
+              "sales": 2280,
+              "stock": 95,
+              "icon": "headset",
+              "params": [
+                "20W 双单元",
+                "IPX7 防水",
+                "续航 18 小时",
+                "两台互联立体声"
+              ],
+              "description": "20W 双单元重低音，IPX7 级防水，两台可互联组成立体声。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "潮玩配件小铺",
+      "notice": "闪电发货 · 当天 17 点前下单当日发",
+      "deliveryFee": 2,
+      "deliveryTime": "15分钟",
+      "categories": [
+        {
+          "name": "充电器",
+          "products": [
+            {
+              "id": 401,
+              "name": "65W 氮化镓充电器",
+              "subtitle": "三口输出 · 小巧便携",
+              "price": 129.0,
+              "originPrice": 169.0,
+              "sales": 5621,
+              "stock": 400,
+              "icon": "charger",
+              "params": [
+                "65W 总功率",
+                "2C1A 三口",
+                "氮化镓方案",
+                "折叠插脚"
+              ],
+              "description": "氮化镓方案体积缩小 40%，2C1A 三口可同时给笔记本和手机供电。"
+            },
+            {
+              "id": 402,
+              "name": "100W 三口充电器",
+              "subtitle": "笔记本也能快充",
+              "price": 199.0,
+              "originPrice": 249.0,
+              "sales": 1863,
+              "stock": 210,
+              "icon": "charger",
+              "params": [
+                "100W 单口",
+                "2C1A 三口",
+                "支持 PD3.0 / PPS",
+                "折叠插脚"
+              ],
+              "description": "单口 100W 输出，可直接为 16 英寸笔记本供电，出差一个头就够。"
+            }
+          ]
+        },
+        {
+          "name": "移动电源",
+          "products": [
+            {
+              "id": 403,
+              "name": "磁吸无线充电宝",
+              "subtitle": "10000mAh · 磁吸即充",
+              "price": 199.0,
+              "originPrice": 259.0,
+              "sales": 3214,
+              "stock": 180,
+              "icon": "charger",
+              "params": [
+                "10000mAh",
+                "15W 磁吸无线",
+                "20W 有线快充",
+                "支架设计"
+              ],
+              "description": "磁吸即充，自带支架可边充边看剧，10000mAh 容量满足一天外拍。"
+            },
+            {
+              "id": 404,
+              "name": "20000mAh 快充宝",
+              "subtitle": "大容量 · 双向快充",
+              "price": 149.0,
+              "originPrice": 199.0,
+              "sales": 4102,
+              "stock": 260,
+              "icon": "charger",
+              "params": [
+                "20000mAh",
+                "22.5W 双向快充",
+                "双输出",
+                "数显电量"
+              ],
+              "description": "20000mAh 大容量可给手机充满 4 次，数显电量一目了然。"
+            }
+          ]
+        },
+        {
+          "name": "线材与保护",
+          "products": [
+            {
+              "id": 405,
+              "name": "编织快充线 1.5m",
+              "subtitle": "尼龙编织 · 耐弯折",
+              "price": 39.0,
+              "originPrice": 59.0,
+              "sales": 9865,
+              "stock": 900,
+              "icon": "charger",
+              "params": [
+                "1.5 米长度",
+                "100W 快充",
+                "尼龙编织",
+                "3 万次弯折测试"
+              ],
+              "description": "尼龙编织线身，通过 3 万次弯折测试，支持 100W PD 快充。"
+            },
+            {
+              "id": 406,
+              "name": "液态硅胶保护壳",
+              "subtitle": "亲肤手感 · 全包防摔",
+              "price": 49.0,
+              "originPrice": 79.0,
+              "sales": 6521,
+              "stock": 520,
+              "icon": "phone",
+              "params": [
+                "液态硅胶",
+                "全包边设计",
+                "内衬超纤",
+                "多色可选"
+              ],
+              "description": "液态硅胶亲肤手感，内衬超纤不刮机身，全包边有效缓冲跌落脚。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "智联智能家居",
+      "notice": "以旧换新 · 最高补贴 500 元",
+      "deliveryFee": 6,
+      "deliveryTime": "35分钟",
+      "categories": [
+        {
+          "name": "智能手表",
+          "products": [
+            {
+              "id": 501,
+              "name": "智联 Watch 6",
+              "subtitle": "独立通话 · 血氧心率",
+              "price": 1299.0,
+              "originPrice": 1499.0,
+              "sales": 1420,
+              "stock": 64,
+              "icon": "watch",
+              "params": [
+                "1.49 英寸 AMOLED",
+                "eSIM 独立通话",
+                "血氧/心率/睡眠",
+                "14 天续航"
+              ],
+              "description": "支持 eSIM 独立通话，全天候血氧心率监测，续航最长 14 天。"
+            },
+            {
+              "id": 502,
+              "name": "智联 Watch SE",
+              "subtitle": "轻量款 · 7 天续航",
+              "price": 699.0,
+              "originPrice": 899.0,
+              "sales": 2380,
+              "stock": 130,
+              "icon": "watch",
+              "params": [
+                "1.32 英寸 AMOLED",
+                "蓝牙通话",
+                "100+ 运动模式",
+                "7 天续航"
+              ],
+              "description": "轻量入门款，100+ 运动模式与蓝牙通话，续航 7 天。"
+            }
+          ]
+        },
+        {
+          "name": "手环",
+          "products": [
+            {
+              "id": 503,
+              "name": "智联 Band 9",
+              "subtitle": "大屏手环 · 21 天续航",
+              "price": 249.0,
+              "originPrice": 299.0,
+              "sales": 5320,
+              "stock": 410,
+              "icon": "watch",
+              "params": [
+                "1.62 英寸 AMOLED",
+                "150+ 运动模式",
+                "21 天续航",
+                "5ATM 防水"
+              ],
+              "description": "1.62 英寸大屏手环，21 天超长续航，5ATM 防水可游泳佩戴。"
+            }
+          ]
+        },
+        {
+          "name": "智能家居",
+          "products": [
+            {
+              "id": 504,
+              "name": "智能门锁 Pro",
+              "subtitle": "3D 人脸 · 全自动锁体",
+              "price": 1599.0,
+              "originPrice": 1899.0,
+              "sales": 486,
+              "stock": 28,
+              "icon": "store",
+              "params": [
+                "3D 人脸识别",
+                "指纹/密码/NFC",
+                "全自动锁体",
+                "C 级锁芯"
+              ],
+              "description": "3D 结构光人脸识别，误识率极低，支持指纹、密码、NFC 多种开锁方式。"
+            },
+            {
+              "id": 505,
+              "name": "扫拖机器人",
+              "subtitle": "激光导航 · 自动集尘",
+              "price": 2299.0,
+              "originPrice": 2699.0,
+              "sales": 312,
+              "stock": 19,
+              "icon": "store",
+              "params": [
+                "LDS 激光导航",
+                "5000Pa 吸力",
+                "自动集尘",
+                "电控水箱"
+              ],
+              "description": "LDS 激光导航建图精准，5000Pa 强吸力配合电控水箱，扫拖一次完成。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

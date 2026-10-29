@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">数码商城</string>
+
+    <!-- 首页 -->
+    <string name="home_title">数码商城</string>
+    <string name="home_subtitle">正品数码 · 极速配送</string>
+    <string name="search_hint">搜索品牌 / 型号，如：星曜 X5</string>
+    <string name="section_nearby">品牌旗舰店</string>
+
+    <!-- 店铺详情 -->
+    <string name="clear">清空</string>
+    <string name="cart_empty">购物车是空的</string>
+    <string name="go_settle">去结算</string>
+    <string name="add_to_cart">加入购物车</string>
+
+    <!-- 通用 -->
+    <string name="back">返回</string>
+    <string name="loading">正在加载…</string>
+    <string name="net_error">网络连接失败，已切换为离线数据</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+</resources>

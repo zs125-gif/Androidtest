@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 品牌色 -->
+    <color name="brand_primary">#1B6BFF</color>
+    <color name="brand_primary_dark">#0B4FC4</color>
+    <color name="brand_primary_light">#E8F0FF</color>
+    <color name="brand_accent">#FF6A00</color>
+
+    <!-- 页面与文字 -->
+    <color name="bg_page">#F4F6FA</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_gray">#F2F4F7</color>
+    <color name="divider">#E8EBF0</color>
+    <color name="text_primary">#1A1D26</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9AA3AF</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- 功能色 -->
+    <color name="price_red">#F5222D</color>
+    <color name="tag_bg">#FFF3E8</color>
+    <color name="tag_text">#FF6A00</color>
+    <color name="success_green">#17B26A</color>
+    <color name="mask_black">#66000000</color>
+
+    <!-- 封面渐变色（无网络图片时的占位底色） -->
+    <color name="cover_blue">#4A7CFF</color>
+    <color name="cover_purple">#7C5CFF</color>
+    <color name="cover_teal">#12B5A5</color>
+    <color name="cover_orange">#FF8A3D</color>
+    <color name="cover_pink">#FF6B8B</color>
+</resources>
