@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.example.digitalmall.R;
 import com.example.digitalmall.model.Store;
-import com.example.digitalmall.util.ImageLoader;
 import com.example.digitalmall.util.UIUtil;
 
 import java.util.ArrayList;
@@ -93,10 +92,9 @@ public class StoreAdapter extends BaseAdapter {
         }
 
         void bind(Store store) {
-            // 封面：先用品牌色渐变占位，能拿到网络图片再覆盖
-            ivCover.setBackground(UIUtil.coverDrawable(context, store.getThemeColor(), 8f));
-            ivIcon.setImageResource(UIUtil.iconRes(store.getIcon()));
-            ImageLoader.load(store.getCover(), ivCover, 0);
+            // 封面：真实图片优先，没有图片再退回品牌色渐变 + 品类图标
+            UIUtil.bindCover(context, ivCover, ivIcon,
+                    store.getCover(), store.getIcon(), store.getThemeColor(), 8f);
 
             tvName.setText(store.getName());
             tvSlogan.setText(store.getSlogan());

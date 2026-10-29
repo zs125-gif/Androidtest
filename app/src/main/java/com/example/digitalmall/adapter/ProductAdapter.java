@@ -12,7 +12,6 @@ import android.widget.TextView;
 import com.example.digitalmall.R;
 import com.example.digitalmall.model.Product;
 import com.example.digitalmall.util.CartManager;
-import com.example.digitalmall.util.ImageLoader;
 import com.example.digitalmall.util.UIUtil;
 
 import java.util.ArrayList;
@@ -88,9 +87,9 @@ public class ProductAdapter extends BaseAdapter {
 
         final Product product = getItem(position);
 
-        holder.ivCover.setBackground(UIUtil.coverDrawable(context, themeColor, 8f));
-        holder.ivIcon.setImageResource(UIUtil.iconRes(product.getIcon()));
-        ImageLoader.load(product.getCover(), holder.ivCover, 0);
+        // 商品图：真实图片优先，没有图片再退回品牌色渐变 + 品类图标
+        UIUtil.bindCover(context, holder.ivCover, holder.ivIcon,
+                product.getCover(), product.getIcon(), themeColor, 8f);
 
         holder.tvName.setText(product.getName());
         holder.tvSubtitle.setText(product.getSubtitle());
